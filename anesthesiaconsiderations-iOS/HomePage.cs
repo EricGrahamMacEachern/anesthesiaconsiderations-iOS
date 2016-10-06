@@ -56,7 +56,13 @@ namespace FormsGallery
                                 Command = navigateCommand,
                                 CommandParameter = typeof(Contact)
                             },
-
+                            new TextCell
+                            {
+                                Text = "Search",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Search)
+                            },
+                            
                         }
                     }
                };

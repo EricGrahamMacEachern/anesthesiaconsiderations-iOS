@@ -7,152 +7,158 @@ namespace FormsGallery
     {
         public Considerations()
         {
-            Label header = new Label
-            {
-                Text = "Considerations",
-                FontSize = 50,
-                FontAttributes = FontAttributes.Bold,
-                HorizontalOptions = LayoutOptions.Center
-            };
-
-            Label label = new Label
-            {
-                Text = "Airway",
-                    
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                VerticalOptions = LayoutOptions.CenterAndExpand
-            };
-            Label label2 = new Label
-            {
-                Text = "Cardiac",
-
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                VerticalOptions = LayoutOptions.CenterAndExpand
-            };
-            Label label3 = new Label
-            {
-                Text = "Critical Care",
-
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                VerticalOptions = LayoutOptions.CenterAndExpand
-            };
-            Label label4 = new Label
-            {
-                Text = "Endocrinology",
-
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                VerticalOptions = LayoutOptions.CenterAndExpand
-            };
-            Label label5 = new Label
-            {
-                Text = "Hematology",
-
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                VerticalOptions = LayoutOptions.CenterAndExpand
-            };
-            Label label6 = new Label
-            {
-                Text = "Hepatic",
-
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                VerticalOptions = LayoutOptions.CenterAndExpand
-            };
-            Label label7 = new Label
-            {
-                Text = "Neuroanesthesia",
-
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                VerticalOptions = LayoutOptions.CenterAndExpand
-            };
-            Label label8 = new Label
-            {
-                Text = "Obstetrics",
-
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                VerticalOptions = LayoutOptions.CenterAndExpand
-            };
-            Label label9 = new Label
-            {
-                Text = "Pediatrics",
-
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                VerticalOptions = LayoutOptions.CenterAndExpand
-            };
-            Label label10 = new Label
-            {
-                Text = "Psychiatric",
-
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                VerticalOptions = LayoutOptions.CenterAndExpand
-            };
-            Label label11 = new Label
-            {
-                Text = "Rare Co-existing Disease",
-
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                VerticalOptions = LayoutOptions.CenterAndExpand
-            };
-            Label label12 = new Label
-            {
-                Text = "Renal",
-
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                VerticalOptions = LayoutOptions.CenterAndExpand
-            };
-            Label label13 = new Label
-            {
-                Text = "Respiratory & Thoracics",
-
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                VerticalOptions = LayoutOptions.CenterAndExpand
-            };
-            Label label14 = new Label
-            {
-                Text = "Skin & Musculoskeletal",
-
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                VerticalOptions = LayoutOptions.CenterAndExpand
-            };
-            Label label15 = new Label
-            {
-                Text = "Toxicities",
-
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                VerticalOptions = LayoutOptions.CenterAndExpand
-            };
-            Label label16 = new Label
-            {
-                Text = "Vascular",
-
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                VerticalOptions = LayoutOptions.CenterAndExpand
-            };
-            
-
-            // Build the page.
-            this.Content = new StackLayout
-            {
-                Children =
+            // Define command for the items in the TableView.
+            Command<Type> navigateCommand =
+                new Command<Type>(async (Type pageType) =>
                 {
-                    header,
-                    label,
-                    label2,
-                    label3,
-                    label4,
-                    label5,
-                    label6,
-                    label7,
-                    label8,
-                    label9,
-                    label10,
-                    label11,
-                    label12,
-                    label13,
-                    label14,
-                    label15,
-                    label16,
-                }
+                    Page page = (Page)Activator.CreateInstance(pageType);
+                    await this.Navigation.PushAsync(page);
+                });
+
+            this.Title = "Considerations";
+            this.Content = new TableView
+            {
+                Intent = TableIntent.Menu,
+                Root = new TableRoot
+                    {
+                        new TableSection("Considerations")
+                        {
+                            new TextCell
+                            {
+                                Text = "Airway",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Airway)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Cardiac",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Cardiac)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Critical Care",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(CriticalCare)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Endocrinology",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Endocrinology)
+                            },
+                            new TextCell
+                            {
+                                Text = "Hematology",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Hematology)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Hepatic",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Hepatic)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Neuroanesthesia",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Neuroanesthesia)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Neuromuscular",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Neuromuscular)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Hypotension",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Hypotension)
+                            },
+
+
+                            new TextCell
+                            {
+                                Text = "Obstetrics",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Obstetrics)
+                            },
+
+
+                            new TextCell
+                            {
+                                Text = "Pediatrics",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Pediatrics)
+                            },
+
+
+                            new TextCell
+                            {
+                                Text = "Psychiatric",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Psychiatric)
+                            },
+
+
+                            new TextCell
+                            {
+                                Text = "Rare Co-existing Disease",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(RareCoexistingDisease)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Renal",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Renal)
+                            },
+
+
+                            new TextCell
+                            {
+                                Text = "Respiratory & Thoracics",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(RespiratoryAndThoracics)
+                            },
+
+
+                            new TextCell
+                            {
+                                Text = "Skin & Musculoskeletal",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(SkinAndMusculoskeletal)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Toxicities",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Toxicities)
+                            },
+
+
+                            new TextCell
+                            {
+                                Text = "Vascular",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Vascular)
+                            },
+                        }
+                    }
             };
         }
     }
+
 }
+

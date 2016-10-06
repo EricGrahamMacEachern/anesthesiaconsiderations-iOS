@@ -1,0 +1,187 @@
+﻿using System;
+using Xamarin.Forms;
+
+namespace FormsGallery
+{
+    class Cardiac : ContentPage
+    {
+        public Cardiac()
+        {
+            // Define command for the items in the TableView.
+            Command<Type> navigateCommand =
+                new Command<Type>(async (Type pageType) =>
+                {
+                    Page page = (Page)Activator.CreateInstance(pageType);
+                    await this.Navigation.PushAsync(page);
+                });
+
+            this.Title = "Cardiac";
+            this.Content = new TableView
+            {
+                Intent = TableIntent.Menu,
+                Root = new TableRoot
+                    {
+                        new TableSection("Cardiac")
+                        {
+                            new TextCell
+                            {
+                                Text = "Adult Congenital Heart Disease",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(AirwayAbscessAndInfection)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Aortic Dissection",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(AirwayTrauma)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Aortic Regurgitation",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(ExpandingNeckHematoma)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Aortic Stenosis",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(MicrolaryngoscopyAndAirwayLaser)
+                            },
+                            new TextCell
+                            {
+                                Text = "Atrial Fibrillation",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(ExtravasationInjuries)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Atrial Septal Defect",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(PenetratingNeckInjuries)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Brugada Syndrome",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(RigidBronchoscopy)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Cardiac Contusion",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Tracheostomy)
+                            },
+
+
+                            new TextCell
+                            {
+                                Text = "Cardiac Tamponade",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Tracheostomy)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Cardiomyopathies",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Tracheostomy)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Coronary Artery Disease",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Tracheostomy)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Fontan Physiology",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Tracheostomy)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Hypertrophic Obstructive Cardiomyopathy",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Tracheostomy)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Infective Endocarditis Prophylaxis",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Tracheostomy)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Mitral Regurgitation",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Tracheostomy)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Mitral Stenosis",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Tracheostomy)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Pacemakers & ICDs",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Tracheostomy)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Pulmonary Hypertension",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Tracheostomy)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "QT Prolongation",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Tracheostomy)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Transplanted Heart",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Tracheostomy)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Tricuspid Regurgitation",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Tracheostomy)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Wolff-Parkinson-White Syndrome",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Tracheostomy)
+                            },
+
+                        }
+                    }
+            };
+        }
+    }
+
+}
+

@@ -15,10 +15,12 @@ namespace FormsGallery
                 HorizontalOptions = LayoutOptions.Center
             };
 
-            Label label = new Label
+            ScrollView scrollView = new ScrollView
             {
-                Text =
-                    "Welcome to our website!  We aim to provide anesthesiologists, trainees, and " +
+                VerticalOptions = LayoutOptions.FillAndExpand,
+                Content = new Label
+                {
+                    Text = "Welcome to our website!  We aim to provide anesthesiologists, trainees, and " +
 
                     "perioperative health professionals with concise, current, and accessible clinical " +
 
@@ -34,11 +36,27 @@ namespace FormsGallery
 
                     "use the available dropdown menus.  We hope to continually improve, expand, and " +
 
-                    "update our website. Please read the 'Legal' section for our terms of use.",
+                    "update our website. Please read the 'Legal' section for our terms of use. \n\n" +
 
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                VerticalOptions = LayoutOptions.CenterAndExpand
+                    "Dr. Pooya Kazemi, MD, FRCPC " +
+
+                    "Founder, Contributor, Owner " +
+
+                    "Anesthesiologist, Vancouver Island Health Authority " +
+
+                    "Victoria, BC, Canada " +
+
+                    "Resident Contributors: " +
+    
+                    "Dr. Daniel Mok, MD, UBC Anesthesiology Resident " +
+
+                    "Dr. Amber Galbraith, MD, UBC Anesthesiology Resident ",
+
+                    FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                }
             };
+
+
 
             // Build the page.
             this.Content = new StackLayout
@@ -46,7 +64,7 @@ namespace FormsGallery
                 Children =
                 {
                     header,
-                    label
+                    scrollView,
                 }
             };
         }

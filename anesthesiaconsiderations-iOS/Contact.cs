@@ -14,10 +14,10 @@ using Xamarin.Forms;
                 HorizontalOptions = LayoutOptions.Center
             };
 
-            Button emailButton = new Button { Text = "Email" };
+            Button emailButton = new Button { Text = "Website Contact" };
             emailButton.Clicked += (sender, e) =>
             {
-                Device.OpenUri(new Uri("mailto:test@test.com"));
+                Device.OpenUri(new Uri("http://www.anesthesiaconsiderations.com/"));
             };
 
             // Build the page.
