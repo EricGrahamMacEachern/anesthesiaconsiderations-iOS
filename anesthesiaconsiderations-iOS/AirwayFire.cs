@@ -7,54 +7,516 @@ namespace FormsGallery
     {
         public AirwayFire()
         {
+            Command<Type> navigateCommand =
+                new Command<Type>(async (Type pageType) =>
+                {
+                    Page page = (Page) Activator.CreateInstance(pageType);
+                    await this.Navigation.PushAsync(page);
+                });
+
+            BackgroundColor = Color.White;
+
             Label header = new Label
             {
                 Text = "Airway Fire",
-                FontSize = 50,
+                TextColor = Color.Black,
+                FontSize = 30,
                 FontAttributes = FontAttributes.Bold,
-                HorizontalOptions = LayoutOptions.Center
+                HorizontalOptions = LayoutOptions.Center,
+                HorizontalTextAlignment = TextAlignment.Center,
             };
 
             ScrollView scrollView = new ScrollView
             {
-                VerticalOptions = LayoutOptions.FillAndExpand,
-                Content = new Label
+                Margin = 0,
+                Padding = 0,
+                Content = new StackLayout
                 {
-                    Text = "Management\n\n" +
-
-"\u2022 Inform team & call for help \n" +
-"\u2022 Simultaneously remove the endotracheal tube (ETT) & stop gases/disconnect circuit\n" +
-"\u2022 Pour saline or water into airway\n" +
-"\u2022 Remove airway foreign bodies (ie: ETT pieces, sponges)\n" +
-"\u2022 When fire is extinguished: re-establish ventilation; avoid supplemental oxygen if possible\n" +
-"\u2022 Consider prompt reintubation prior to swelling & coordinated with bronchoscopy\n" +
-"\u2022 Examine entire airway (including bronchoscopy) to assess injury & remove residual debris\n\n" +
-
-
-"Prevention\n\n" +
-
-"\u2022 For high risk procedures:\n" +
-"\t \u2022 Discuss fire prevention & management with team during time-out\n" +
-"\t \u2022 Avoid FiO2 > 0.3 & avoid N2O\n\n" +
-
-"\u2022 For laser surgery of vocal cord or larynx:\n" +
-"\t \u2022 Use laser resistant ETT (single or double cuff)\n" +
-"\t \u2022 Assure ETT cuff sufficiently deep below vocal cords\n" +
-"\t \u2022 Fill proximal ETT cuff with methylene blue-tinted saline (acts as a marker if cuff perforated by laser)\n" +
-"\t \u2022 Ensure laser in STANDBY when not in active use\n" +
-"\t \u2022 Surgeon protects ETT cuff with wet gauze\n" +
-"\t \u2022 Surgeon confirms FiO2 < 0.3 & no N2O prior to laser use (may require several minutes to dilute FiO2 & FeO2 to <0.3 depending on fresh gas flow & initial FiO2)\n\n" +
-
-"\u2022 For non-laser surgery in oropharynx:\n" +
-"\t \u2022Regular PVC ETT may be used\n" +
-"\t \u2022Consider packing wet gauze around ETT to minimize O2 leakage\n" +
-"\t \u2022Consider continuous suctioning of the operating field inside oropharynx\n",
-
-                    FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                    Spacing = 0,
+                    Padding = 0,
+                    //Orientation = StackOrientation.Vertical,
+                    Children =
+                    {
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            //Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    FontSize = 20,
+                                    Text = "Management",
+                                    TextColor = Color.Black,
+                                    FontAttributes = FontAttributes.Bold,
+                                },
+                                new Label
+                                {
+                                    Text = " ",
+                                    FontSize = 5,
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Inform team & call for help",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text =
+                                        "Simultaneously remove the endotracheal tube (ETT) & stop gases/disconnect circuit",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Pour saline or water into airway",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Remove airway foreign bodies (ie: ETT pieces, sponges)",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text =
+                                        "When fire is extinguished: re-establish ventilation; avoid supplemental oxygen if possible",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text =
+                                        "Consider prompt reintubation prior to swelling & coordinated with bronchoscopy",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text =
+                                        "Examine entire airway (including bronchoscopy) to assess injury & remove residual debris",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            //Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    FontSize = 20,
+                                    Text = "\n Prevention",
+                                    TextColor = Color.Black,
+                                    FontAttributes = FontAttributes.Bold,
+                                },
+                                new Label
+                                {
+                                    Text = " ",
+                                    FontSize = 5,
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text =
+                                        "For high risk procedures:",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Discuss fire prevention & management with team during time-out",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Avoid FiO2 > 0.3 & avoid N2O",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "For laser surgery of vocal cord or larynx:",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Use laser resistant ETT (single or double cuff)",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Assure ETT cuff sufficiently deep below vocal cords",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Fill proximal ETT cuff with methylene blue-tinted saline (acts as a marker if cuff perforated by laser)",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Ensure laser in STANDBY when not in active use",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Surgeon protects ETT cuff with wet gauze",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Surgeon confirms FiO2 < 0.3 & no N2O prior to laser use (may require several minutes to dilute FiO2 & FeO2 to <0.3 depending on fresh gas flow & initial FiO2)",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text =
+                                        "For non-laser surgery in oropharynx:",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Regular PVC ETT may be used",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Consider packing wet gauze around ETT to minimize O2 leakage",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Consider continuous suctioning of the operating field inside oropharynx",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                    }
                 }
             };
 
-
+            Button homeButton = new Button
+            {
+                Text = "Home Page",
+                Command = navigateCommand,
+                CommandParameter = typeof(HomePage),
+                Font = Font.SystemFontOfSize(NamedSize.Large),
+                BorderWidth = 1,
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.CenterAndExpand
+            };
 
             // Build the page.
             this.Content = new StackLayout
@@ -63,6 +525,7 @@ namespace FormsGallery
                 {
                     header,
                     scrollView,
+                    homeButton,
                 }
             };
         }

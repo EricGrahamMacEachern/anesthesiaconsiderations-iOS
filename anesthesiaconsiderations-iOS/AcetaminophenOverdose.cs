@@ -7,13 +7,12 @@ namespace FormsGallery
     {
         public AcetaminophenOverdose()
         {
-
             Command<Type> navigateCommand =
-    new Command<Type>(async (Type pageType) =>
-    {
-        Page page = (Page)Activator.CreateInstance(pageType);
-        await this.Navigation.PushAsync(page);
-    });
+                new Command<Type>(async (Type pageType) =>
+                {
+                    Page page = (Page) Activator.CreateInstance(pageType);
+                    await this.Navigation.PushAsync(page);
+                });
 
             BackgroundColor = Color.White;
 
@@ -37,391 +36,413 @@ namespace FormsGallery
                     Padding = 0,
                     //Orientation = StackOrientation.Vertical,
                     Children =
-                {
-         new StackLayout
-        {
-            Padding = 0,
-            //Orientation = StackOrientation.Horizontal,
-            Children =
-            {
+                    {
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            //Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    FontSize = 20,
+                                    Text = "Considerations",
+                                    TextColor = Color.Black,
+                                    FontAttributes = FontAttributes.Bold,
+                                },
 
-            new Label
-            {
+                                new Label
+                                {
+                                    Text = " ",
+                                    FontSize = 5,
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Emergency situation, full stomach ",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Co-intoxications may exist ",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Uncooperative patient (encephalopathy, toxic ingestions, suicidality)",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text =
+                                        "Multisystem effects of acute liver injury/failure (usually only > 24 hours after ingestion):",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "CVS: hypotension ",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "CNS: encephalopathy, cerebral edema",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "GU: renal failure",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "GI: nausea/vomiting, acute hepatic failure",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Hematology: anemia (GIB), coagulopathy",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Early provision of therapy:",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Oral activated charcoal < 1hr",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "N-acetyl cysteine (NAC) according to treatment nomogram ",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Disposition to ICU for monitoring & supportive care",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            //Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    FontSize = 20,
+                                    Text = "\n Pregnancy Considerations",
+                                    TextColor = Color.Black,
+                                    FontAttributes = FontAttributes.Bold,
+                                },
 
-            FontSize = 20,
-            Text = "Considerations",TextColor = Color.Black,
-            FontAttributes = FontAttributes.Bold,
-
-            },
-             }
-         },
-                  new StackLayout
-        {
-            Padding = 0,
-            Orientation = StackOrientation.Horizontal,
-            Children =
-            {
-                new Label
-                {
-                    Text = "• ",TextColor = Color.Black,
-                },
-                new Label
-                {
-                    FontSize = 16,
-                    Text = "Emergency situation, full stomach ",TextColor = Color.Black,
-                    HorizontalOptions = LayoutOptions.Start
-                },
-                      }
-                  },
-
-                  new StackLayout
-        {
-            Padding = 0,
-            Orientation = StackOrientation.Horizontal,
-            Children =
-            {
-                new Label
-                {
-                    Text = "• ",TextColor = Color.Black,
-                },
-                new Label
-                {
-                    FontSize = 16,
-                    Text = "Co-intoxications may exist ",TextColor = Color.Black,
-                    HorizontalOptions = LayoutOptions.Start
-                },
-                      }
-                  },
-
-                   new StackLayout
-        {
-            Padding = 0,
-            Orientation = StackOrientation.Horizontal,
-            Children =
-            {
-                new Label
-                {
-                    Text = "• ",TextColor = Color.Black,
-                },
-                new Label
-                {
-                    FontSize = 16,
-                    Text = "Uncooperative patient (encephalopathy, toxic ingestions, suicidality)",TextColor = Color.Black,
-                    HorizontalOptions = LayoutOptions.Start
-                },
-                      }
-                  },
-
-                    new StackLayout
-        {
-            Padding = 0,
-            Orientation = StackOrientation.Horizontal,
-            Children =
-            {
-                new Label
-                {
-                    Text = "• ",TextColor = Color.Black,
-                },
-                new Label
-                {
-                    FontSize = 16,
-                    Text = "Multisystem effects of acute liver injury/failure (usually only > 24 hours after ingestion):",TextColor = Color.Black,
-                    HorizontalOptions = LayoutOptions.Start
-                },
-                      }
-                  },
-
-                    new StackLayout
-        {
-            Padding = new Thickness(20,0,0,0),
-            Orientation = StackOrientation.Horizontal,
-            Children =
-            {
-                                 new Label
-                {
-                    Text = "• ",TextColor = Color.Black,
-                },
-                new Label
-                {
-                    FontSize = 16,
-                    Text = "CVS: hypotension ",TextColor = Color.Black,
-                    HorizontalOptions = LayoutOptions.Start
-                },
-                     }
-                 },
-
-
-                    new StackLayout
-        {
-            Padding = new Thickness(20,0,0,0),
-            Orientation = StackOrientation.Horizontal,
-            Children =
-            {
-                                 new Label
-                {
-                    Text = "• ",TextColor = Color.Black,
-                },
-                new Label
-                {
-                    FontSize = 16,
-                    Text = "CNS: encephalopathy, cerebral edema",TextColor = Color.Black,
-                    HorizontalOptions = LayoutOptions.Start
-                },
-                     }
-                 },
-
-
-                    new StackLayout
-        {
-            Padding = new Thickness(20,0,0,0),
-            Orientation = StackOrientation.Horizontal,
-            Children =
-            {
-                                 new Label
-                {
-                    Text = "• ",TextColor = Color.Black,
-                },
-                new Label
-                {
-                    FontSize = 16,
-                    Text = "GU: renal failure",TextColor = Color.Black,
-                    HorizontalOptions = LayoutOptions.Start
-                },
-                     }
-                 },
-
-
-                    new StackLayout
-        {
-            Padding = new Thickness(20,0,0,0),
-            Orientation = StackOrientation.Horizontal,
-            Children =
-            {
-                                 new Label
-                {
-                    Text = "• ",TextColor = Color.Black,
-                },
-                new Label
-                {
-                    FontSize = 16,
-                    Text = "GI: nausea/vomiting, acute hepatic failure",TextColor = Color.Black,
-                    HorizontalOptions = LayoutOptions.Start
-                },
-                     }
-                 },
-
-
-                    new StackLayout
-        {
-            Padding = new Thickness(20,0,0,0),
-            Orientation = StackOrientation.Horizontal,
-            Children =
-            {
-                                 new Label
-                {
-                    Text = "• ",TextColor = Color.Black,
-                },
-                new Label
-                {
-                    FontSize = 16,
-                    Text = "Hematology: anemia (GIB), coagulopathy",TextColor = Color.Black,
-                    HorizontalOptions = LayoutOptions.Start
-                },
-                        }
-                    },
-
-
-                    new StackLayout
-        {
-            Padding = 0,
-            Orientation = StackOrientation.Horizontal,
-            Children =
-            {
-                new Label
-                {
-                    Text = "• ",TextColor = Color.Black,
-                },
-                new Label
-                {
-                    FontSize = 16,
-                    Text = "Early provision of therapy:",TextColor = Color.Black,
-                    HorizontalOptions = LayoutOptions.Start
-                },
-                      }
-                  },
-
-
-                    new StackLayout
-        {
-            Padding = new Thickness(20,0,0,0),
-            Orientation = StackOrientation.Horizontal,
-            Children =
-            {
-                                 new Label
-                {
-                    Text = "• ",TextColor = Color.Black,
-                },
-                new Label
-                {
-                    FontSize = 16,
-                    Text = "Oral activated charcoal < 1hr",TextColor = Color.Black,
-                    HorizontalOptions = LayoutOptions.Start
-                },
-                        }
-                    },
-
-                  new StackLayout
-        {
-            Padding = new Thickness(20,0,0,0),
-            Orientation = StackOrientation.Horizontal,
-            Children =
-            {
-                                 new Label
-                {
-                    Text = "• ",TextColor = Color.Black,
-                },
-                new Label
-                {
-                    FontSize = 16,
-                    Text = "N-acetyl cysteine (NAC) according to treatment nomogram ",TextColor = Color.Black,
-                    HorizontalOptions = LayoutOptions.Start
-                },
-                      }
-                  },
-
-
-                    new StackLayout
-        {
-            Padding = 0,
-            Orientation = StackOrientation.Horizontal,
-            Children =
-            {
-                new Label
-                {
-                    Text = "• ",TextColor = Color.Black,
-                },
-                new Label
-                {
-                    FontSize = 16,
-                    Text = "Disposition to ICU for monitoring & supportive care",TextColor = Color.Black,
-                    HorizontalOptions = LayoutOptions.Start
-                },
-                      }
-                  },
-
-
-            new Label
-            {
-
-            FontSize = 20,
-            Text = "Pregnancy Considerations",TextColor = Color.Black,
-            FontAttributes = FontAttributes.Bold,
-
-            },
-
-
-                    new StackLayout
-        {
-            Padding = 0,
-            Orientation = StackOrientation.Horizontal,
-            Children =
-            {
-                new Label
-                {
-                    Text = "• ",TextColor = Color.Black,
-                },
-                new Label
-                {
-                    FontSize = 16,
-                    Text = "Identical management with NAC nomogram (both acetaminophen & NAC cross placenta)",TextColor = Color.Black,
-                    HorizontalOptions = LayoutOptions.Start
-                },
-                      }
-                  },
-
-
-                    new StackLayout
-        {
-            Padding = 0,
-            Orientation = StackOrientation.Horizontal,
-            Children =
-            {
-                new Label
-                {
-                    Text = "• ",TextColor = Color.Black,
-                },
-                new Label
-                {
-                    FontSize = 16,
-                    Text = "Multdisciplinary: obstetrics, pediatrics, NICU consultations",TextColor = Color.Black,
-                    HorizontalOptions = LayoutOptions.Start
-                },
-                      }
-                  },
-
-
-                    new StackLayout
-        {
-            Padding = 0,
-            Orientation = StackOrientation.Horizontal,
-            Children =
-            {
-                new Label
-                {
-                    Text = "• ",TextColor = Color.Black,
-                },
-                new Label
-                {
-                    FontSize = 16,
-                    Text = "Risk of fetal compromise:",TextColor = Color.Black,
-                    HorizontalOptions = LayoutOptions.Start
-                },
-                      }
-                  },
-
-                    new StackLayout
-        {
-            Padding = new Thickness(20,0,0,0),
-            Orientation = StackOrientation.Horizontal,
-            Children =
-            {
-                                 new Label
-                {
-                    Text = "• ",TextColor = Color.Black,
-                },
-                new Label
-                {
-                    FontSize = 16,
-                    Text = "FHR monitoring",TextColor = Color.Black,
-                    HorizontalOptions = LayoutOptions.Start
-                },
-                        }
-                    },
-
-                  new StackLayout
-        {
-            Padding = new Thickness(20,0,0,0),
-            Orientation = StackOrientation.Horizontal,
-            Children =
-            {
-                                 new Label
-                {
-                    Text = "• ",TextColor = Color.Black,
-                },
-                new Label
-                {
-                    FontSize = 16,
-                    Text = "Consider caesarean section ",TextColor = Color.Black,
-                    HorizontalOptions = LayoutOptions.Start
-                },
-
-                     }
-                 },
-            }             
-
+                                new Label
+                                {
+                                    Text = " ",
+                                    FontSize = 5,
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text =
+                                        "Identical management with NAC nomogram (both acetaminophen & NAC cross placenta)",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Multdisciplinary: obstetrics, pediatrics, NICU consultations",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Risk of fetal compromise:",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "FHR monitoring",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Consider caesarean section ",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                    }
                 }
-
-
             };
 
             Button homeButton = new Button

@@ -27,7 +27,7 @@ namespace FormsGallery
                             {
                                 Text = "Adult Congenital Heart Disease",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(AirwayAbscessAndInfection)
+                                CommandParameter = typeof(AdultCongenitalHeartDisease)
                             },
 
                             new TextCell
