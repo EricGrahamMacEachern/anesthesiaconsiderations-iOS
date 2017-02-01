@@ -238,7 +238,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Medications: NSAIDS, steriods, immunomodulators: marrow suppression, platelet dysfunction, renal impairment, need for steroid coverage, ↑ infection risk ",
+                                    Text = "Medications: NSAIDS, steriods, immunomodulators: marrow suppression, platelet dysfunction, renal impairment, need for steroid coverage, ↑ infection risk \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -253,7 +253,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Goals ",
+                                    Text = "Goals ",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -341,7 +341,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Recognition of difficult neuraxial & unpredictable response to neuraxial local anesthetics",
+                                    Text = "Recognition of difficult neuraxial & unpredictable response to neuraxial local anesthetics\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -356,7 +356,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Pregnancy Considerations ",
+                                    Text = "Pregnancy Considerations ",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },

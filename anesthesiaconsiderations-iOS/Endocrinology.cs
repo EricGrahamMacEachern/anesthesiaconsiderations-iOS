@@ -88,7 +88,7 @@ namespace FormsGallery
 
                             new TextCell
                             {
-                                Text = "DiabeticKetoacidosis",
+                                Text = "Diabetic Ketoacidosis",
                                 Command = navigateCommand,
                                 CommandParameter = typeof(DiabeticKetoacidosis)
                             },

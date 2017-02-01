@@ -331,7 +331,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Potential for postoperative re-obstruction post extubation & disposition to ICU/high acuity unit",
+                                    Text = "Potential for postoperative re-obstruction post extubation & disposition to ICU/high acuity unit\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -357,6 +357,7 @@ namespace FormsGallery
                                 },
                             }
                         },
+                        
                         new StackLayout
                         {
                             Padding = 0,
@@ -371,115 +372,13 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Refractory hypotension despite epinephrine:",
+                                    Text = "Consider pre-op abscess draining",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
-                        new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Vasopressin 1-40 unit bolus, 0.01-0.04 units/min infusion",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-                        new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text =
-                                        "Glucagon 1-2 mg over 5 min IV then 5-15 mcg/min IV infusion (especially for patients taking beta blockers; inotropic & chronotropic effects not mediated through beta receptors)",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-                        new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text =
-                                        "Methylene blue 1-2mg/kg IV (inhibits nitric oxide synthase & guanylate cyclase)",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-                        new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Consider bicarbonate (0.5-1 mEq/kg) with acidosis",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-                        new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text =
-                                        "Consider transesophageal echocardiography (TEE) & entertain other differential diagnosis",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
+
                         new StackLayout
                         {
                             Padding = 0,
@@ -494,15 +393,16 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Post-event care:",
+                                    Text = "Secure airway safely & effectively, always consider awake fiberoptic intubation (AFOI), surgical airway, ‘double set-up’ ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
                         new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
+                            Padding = 0,
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -514,15 +414,16 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Laboratory tests to support diagnosis:",
+                                    Text = "Manage sepsis with early goal directed therapy",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
                         new StackLayout
                         {
-                            Padding = new Thickness(40, 0, 0, 0),
+                            Padding = 0,
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -534,15 +435,37 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Serum tryptase levels 15 minutes - 3 hours after onset of symptoms",
+                                    Text = "Prevent abscess rupture & lung soilage\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
                         new StackLayout
                         {
-                            Padding = new Thickness(40, 0, 0, 0),
+                            Padding = 0,
+                            //Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    FontSize = 20,
+                                    Text = "Conflicts",
+                                    TextColor = Color.Black,
+                                    FontAttributes = FontAttributes.Bold,
+                                },
+                                new Label
+                                {
+                                    Text = " ",
+                                    FontSize = 5,
+                                },
+                            }
+                        },
+
+                        new StackLayout
+                        {
+                            Padding = 0,
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -554,16 +477,16 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text =
-                                        "Serum histamine levels peak 5 - 15 minutes after onset of symptoms; return to baseline at 60 minutes",
+                                    Text = "Uncooperative pediatric patient vs. difficult airway",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
                         new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
+                            Padding = 0,
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -575,15 +498,16 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = " Discharge to ICU intubated & ventilated",
+                                    Text = "Full stomach & need for RSI vs. difficult airway",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
                         new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
+                            Padding = 0,
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -595,15 +519,16 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Due to biphasic nature, monitor at least 24 hours",
+                                    Text = "Full stomach & need for RSI plus need for deep plane of anesthesia vs. risk of hemodynamic instability (sepsis)",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
                         new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
+                            Padding = 0,
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -615,7 +540,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Consult allergist",
+                                    Text = "AFOI does not visualize ETT passing abscess & therefore potential to rupture it",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

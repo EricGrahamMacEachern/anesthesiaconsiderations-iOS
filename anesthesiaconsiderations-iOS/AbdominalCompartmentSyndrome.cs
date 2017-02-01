@@ -196,7 +196,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Secondary: does not originate in the abdomen or pelvis (e.g., fluid resuscitation, sepsis, burns)",
+                                        "Secondary: does not originate in the abdomen or pelvis (e.g., fluid resuscitation, sepsis, burns)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -211,7 +211,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Considerations",
+                                    Text = "Considerations",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -476,7 +476,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Sudden change in respiratory compliance (avoid overventilation)",
+                                    Text = "Sudden change in respiratory compliance (avoid overventilation)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -491,7 +491,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Goals/Conflicts",
+                                    Text = "Goals/Conflicts",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },

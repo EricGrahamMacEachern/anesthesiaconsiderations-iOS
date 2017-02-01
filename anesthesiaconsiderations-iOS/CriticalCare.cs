@@ -52,7 +52,7 @@ namespace FormsGallery
                             },
                             new TextCell
                             {
-                                Text = "OrganDonation",
+                                Text = "Organ Donation",
                                 Command = navigateCommand,
                                 CommandParameter = typeof(OrganDonation)
                             },

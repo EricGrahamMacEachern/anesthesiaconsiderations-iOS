@@ -156,7 +156,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "E: Normal: sensation & motor function are graded as normal in all segments & the patient had prior deficits",
+                                        "E: Normal: sensation & motor function are graded as normal in all segments & the patient had prior deficits\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -171,7 +171,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Considerations",
+                                    Text = "Considerations",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -517,7 +517,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hyperkalemic arrest with succinylcholine after 24 hrs ",
+                                    Text = "Hyperkalemic arrest with succinylcholine after 24 hrs \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -532,7 +532,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Goals",
+                                    Text = "Goals",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -718,7 +718,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "If bradycardic: atropine, external pacer, pharmacologic pacing (dopamine, isoproterenol) ",
+                                        "If bradycardic: atropine, external pacer, pharmacologic pacing (dopamine, isoproterenol) \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -733,7 +733,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Conflicts",
+                                    Text = "Conflicts",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },

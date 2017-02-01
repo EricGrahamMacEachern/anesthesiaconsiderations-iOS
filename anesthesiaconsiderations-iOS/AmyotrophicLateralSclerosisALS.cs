@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = " Amytrophic Lateral Sclerosis",
+                Text = "Amytrophic Lateral Sclerosis ALS",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,
@@ -71,7 +71,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Progressive degenerative disease of upper & lower motor neurons leading to denervation & atrophy of skeletal muscle with resultant weakness & eventual death",
+                                        "Progressive degenerative disease of upper & lower motor neurons leading to denervation & atrophy of skeletal muscle with resultant weakness & eventual death\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -86,7 +86,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Considerations ",
+                                    Text = "Considerations ",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -235,7 +235,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Chronic pain (often girdle area)",
+                                    Text = "Chronic pain (often girdle area)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -250,7 +250,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Goals ",
+                                    Text = "Goals ",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -335,7 +335,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Maintain stable hemodynamics",
+                                    Text = "Maintain stable hemodynamics\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -350,7 +350,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Conflicts ",
+                                    Text = "Conflicts ",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -457,7 +457,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Secondary: does not originate in the abdomen or pelvis (e.g., fluid resuscitation, sepsis, burns)",
+                                        "Secondary: does not originate in the abdomen or pelvis (e.g., fluid resuscitation, sepsis, burns)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -472,7 +472,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Considerations",
+                                    Text = "Considerations",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -737,7 +737,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Sudden change in respiratory compliance (avoid overventilation)",
+                                    Text = "Sudden change in respiratory compliance (avoid overventilation)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -752,7 +752,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Goals/Conflicts",
+                                    Text = "Goals/Conflicts",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },

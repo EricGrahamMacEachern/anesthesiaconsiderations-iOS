@@ -191,7 +191,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "peak inspiratory pressure\n",
+                                    Text = "peak inspiratory pressure\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -206,7 +206,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Management",
+                                    Text = "Management",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },

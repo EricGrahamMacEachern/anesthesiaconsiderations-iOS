@@ -6,12 +6,16 @@ using Xamarin.Forms;
     {
         public Contact()
         {
-            Label header = new Label
+
+        BackgroundColor = Color.White;
+
+        Label header = new Label
             {
                 Text = "Contact",
-                FontSize = 50,
+                FontSize = 20,
                 FontAttributes = FontAttributes.Bold,
-                HorizontalOptions = LayoutOptions.Center
+            TextColor = Color.Black,
+            HorizontalOptions = LayoutOptions.Center
             };
 
             Button emailButton = new Button { Text = "Website Contact" };

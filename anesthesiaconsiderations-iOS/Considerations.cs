@@ -80,14 +80,6 @@ namespace FormsGallery
 
                             new TextCell
                             {
-                                Text = "Hypotension",
-                                Command = navigateCommand,
-                                CommandParameter = typeof(Hypotension)
-                            },
-
-
-                            new TextCell
-                            {
                                 Text = "Obstetrics",
                                 Command = navigateCommand,
                                 CommandParameter = typeof(Obstetrics)

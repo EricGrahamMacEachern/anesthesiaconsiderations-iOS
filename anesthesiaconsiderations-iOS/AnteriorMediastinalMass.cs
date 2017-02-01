@@ -218,7 +218,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Thyroid mass",
+                                        "Thyroid mass\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -570,7 +570,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Considerations of surgical procedures (e.g., mediastinoscopy) & feasibility of performance under local/sedation",
+                                    Text = "Considerations of surgical procedures (e.g., mediastinoscopy) & feasibility of performance under local/sedation\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

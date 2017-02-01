@@ -429,7 +429,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Collagen vascular disease (e.g. Marfan's)",
+                                        "Collagen vascular disease (e.g. Marfan's)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -470,7 +470,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Medical stabilization:",
+                                        "Medical stabilization:\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -485,7 +485,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "IV access, CVC, arterial line (R arm AND L arm or femoral)",
+                                    Text = "IV access, CVC, arterial line (R arm AND L arm or femoral)\n\n",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -929,7 +929,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Pericardiocentesis in tamponade, which can cause exsanguination ",
+                                        "Pericardiocentesis in tamponade, which can cause exsanguination\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

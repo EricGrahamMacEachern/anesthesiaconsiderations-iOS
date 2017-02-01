@@ -93,7 +93,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Secondary Addisonian crisis caused by ↓ ACTH production either from hypothalamic pituitary disease or from adrenal suppression from chronic steroids, mineralocorticoid activity usually preserved",
+                                        "Secondary Addisonian crisis caused by ↓ ACTH production either from hypothalamic pituitary disease or from adrenal suppression from chronic steroids, mineralocorticoid activity usually preserved\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -108,7 +108,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Considerations",
+                                    Text = "Considerations",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -433,7 +433,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Succinylcholine-induced hyperkalemia ",
+                                    Text = "Succinylcholine-induced hyperkalemia \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -448,7 +448,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Goals",
+                                    Text = "Goals",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -533,7 +533,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Correction of electrolyte abnormalities",
+                                    Text = "Correction of electrolyte abnormalities \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -548,7 +548,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Medications",
+                                    Text = "Medications",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },

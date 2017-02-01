@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = "Abdominal Aortic Aneurysm Repair (Open)",
+                Text = "Abdominal Aortic Aneurysm (AAA) Repair (Open)",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,
@@ -274,7 +274,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hemorrhagic shock with high mortality (85%) ",
+                                    Text = "Hemorrhagic shock with high mortality (85%) \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -289,7 +289,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Goals",
+                                    Text = "Goals",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -355,7 +355,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Minimize hemodynamic changes associated with aortic cross clamping & unclamping",
+                                        "Minimize hemodynamic changes associated with aortic cross clamping & unclamping\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -370,7 +370,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Conflicts",
+                                    Text = "Conflicts",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },

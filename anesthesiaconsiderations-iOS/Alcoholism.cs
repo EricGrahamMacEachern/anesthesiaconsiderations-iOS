@@ -296,7 +296,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Alcohol withdrawal syndromes & need for CIWA protocol (tremors, autonomic hyperactivity, DTs)",
+                                    Text = "Alcohol withdrawal syndromes & need for CIWA protocol (tremors, autonomic hyperactivity, DTs)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -311,7 +311,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Alcohol Withdrawl & Syndromes",
+                                    Text = "Alcohol Withdrawl & Syndromes",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },

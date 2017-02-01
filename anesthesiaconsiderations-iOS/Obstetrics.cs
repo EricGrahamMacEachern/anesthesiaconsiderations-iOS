@@ -48,7 +48,7 @@ namespace FormsGallery
                             {
                                 Text = "Dyspnea in Pregnancy",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(DyspneaInPregnancy)
+                                CommandParameter = typeof(DyspnealnPregnancy)
                             },
                             new TextCell
                             {

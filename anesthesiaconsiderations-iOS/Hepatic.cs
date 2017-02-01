@@ -27,7 +27,7 @@ namespace FormsGallery
                             {
                                 Text = "End Stage Liver Disease",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(AcuteLeukemia)
+                                CommandParameter = typeof(Cirrhosis)
                             },
                             
                         }

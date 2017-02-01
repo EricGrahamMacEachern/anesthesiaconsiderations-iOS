@@ -158,14 +158,14 @@ namespace FormsGallery
                             {
                                 Text = "Tetralogy of Fallot",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(TetralogyOfFallot)
+                                CommandParameter = typeof(TetralogyOfFallout)
                             },
 
                             new TextCell
                             {
                                 Text = "Tonsillectomy",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(TetralogyOfFallot)
+                                CommandParameter = typeof(TetralogyOfFallout)
                                 
                             },
 
@@ -173,7 +173,7 @@ namespace FormsGallery
                             {
                                 Text = "Tracheoesophageal Fistula",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(TracheoesophagealFistula)
+                                CommandParameter = typeof(TracheosophagealFistula)
                             },
 
                         }

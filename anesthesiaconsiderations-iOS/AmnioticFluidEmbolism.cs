@@ -238,7 +238,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Consequences of decompression:",
+                                    Text = "Consequences of decompression:\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -253,7 +253,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Clinical Features (tend to happen suddenly) ",
+                                    Text = "Clinical Features (tend to happen suddenly) ",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -298,7 +298,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hypotension, biphasic cardiovascular collapse:",
+                                    Text = "Hypotension, biphasic cardiovascular collapse:\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -313,7 +313,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n First phase (initial 15-30 min):  RV failure & acute pulmonary hypertension",
+                                    Text = "First phase (initial 15-30 min):  RV failure & acute pulmonary hypertension\n\n",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -398,7 +398,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Seizures/coma ",
+                                    Text = "Seizures/coma \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -413,7 +413,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Management",
+                                    Text = "Management",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -865,7 +865,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Post resuscitation care in ICU ",
+                                    Text = "Post resuscitation care in ICU \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

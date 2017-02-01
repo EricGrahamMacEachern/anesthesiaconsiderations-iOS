@@ -34,48 +34,48 @@ namespace FormsGallery
                             {
                                 Text = "Aortic Dissection",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(AirwayTrauma)
+                                CommandParameter = typeof(AorticDissection)
                             },
 
                             new TextCell
                             {
                                 Text = "Aortic Regurgitation",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(ExpandingNeckHematoma)
+                                CommandParameter = typeof(AorticRegurgitation)
                             },
 
                             new TextCell
                             {
                                 Text = "Aortic Stenosis",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(MicrolaryngoscopyAndAirwayLaser)
+                                CommandParameter = typeof(AorticStenosis)
                             },
                             new TextCell
                             {
                                 Text = "Atrial Fibrillation",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(ExtravasationInjuries)
+                                CommandParameter = typeof(AtrialFibrilation)
                             },
 
                             new TextCell
                             {
                                 Text = "Atrial Septal Defect",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(PenetratingNeckInjuries)
+                                CommandParameter = typeof(AtrialSeptalDefect)
                             },
 
                             new TextCell
                             {
                                 Text = "Brugada Syndrome",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(RigidBronchoscopy)
+                                CommandParameter = typeof(BrugudaSyndrome)
                             },
 
                             new TextCell
                             {
                                 Text = "Cardiac Contusion",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(Tracheostomy)
+                                CommandParameter = typeof(CardiacContusion)
                             },
 
 
@@ -83,98 +83,98 @@ namespace FormsGallery
                             {
                                 Text = "Cardiac Tamponade",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(Tracheostomy)
+                                CommandParameter = typeof(CardiacTamponade)
                             },
 
                             new TextCell
                             {
                                 Text = "Cardiomyopathies",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(Tracheostomy)
+                                CommandParameter = typeof(Cardiomyopathies)
                             },
 
                             new TextCell
                             {
                                 Text = "Coronary Artery Disease",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(Tracheostomy)
+                                CommandParameter = typeof(CoronaryArteryDisease)
                             },
 
                             new TextCell
                             {
                                 Text = "Fontan Physiology",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(Tracheostomy)
+                                CommandParameter = typeof(FontanPhysiology)
                             },
 
                             new TextCell
                             {
                                 Text = "Hypertrophic Obstructive Cardiomyopathy",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(Tracheostomy)
+                                CommandParameter = typeof(HypertrophicObstructiveCardiomyopathy)
                             },
 
                             new TextCell
                             {
                                 Text = "Infective Endocarditis Prophylaxis",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(Tracheostomy)
+                                CommandParameter = typeof(InfectiveEndocarditisProphylaxis)
                             },
 
                             new TextCell
                             {
                                 Text = "Mitral Regurgitation",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(Tracheostomy)
+                                CommandParameter = typeof(MitralRegurgitation)
                             },
 
                             new TextCell
                             {
                                 Text = "Mitral Stenosis",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(Tracheostomy)
+                                CommandParameter = typeof(MitralStenosis)
                             },
 
                             new TextCell
                             {
                                 Text = "Pacemakers & ICDs",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(Tracheostomy)
+                                CommandParameter = typeof(PacemakerAndICDs)
                             },
 
                             new TextCell
                             {
                                 Text = "Pulmonary Hypertension",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(Tracheostomy)
+                                CommandParameter = typeof(PulmonaryHypertension)
                             },
 
                             new TextCell
                             {
                                 Text = "QT Prolongation",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(Tracheostomy)
+                                CommandParameter = typeof(QTProlongation)
                             },
 
                             new TextCell
                             {
                                 Text = "Transplanted Heart",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(Tracheostomy)
+                                CommandParameter = typeof(TransplantedHeart)
                             },
 
                             new TextCell
                             {
                                 Text = "Tricuspid Regurgitation",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(Tracheostomy)
+                                CommandParameter = typeof(TricuspidRegurgitation)
                             },
 
                             new TextCell
                             {
                                 Text = "Wolff-Parkinson-White Syndrome",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(Tracheostomy)
+                                CommandParameter = typeof(WolffParkinsonWhiteSyndrome)
                             },
 
                         }

@@ -146,6 +146,7 @@
     <Compile Include="CerebralPalsy.cs" />
     <Compile Include="CervicalCerclage.cs" />
     <Compile Include="ChronicRenalFailure.cs" />
+    <Compile Include="Cirrhosis.cs" />
     <Compile Include="CleftLipAndPalate.cs" />
     <Compile Include="CocaineToxicity.cs" />
     <Compile Include="CodeFile1.cs" />
@@ -187,7 +188,7 @@
     <Compile Include="FormerPrematureInfant.cs" />
     <Compile Include="G6PDDeficiency.cs" />
     <Compile Include="GlycogenStorageDisorders.cs" />
-    <Compile Include="Guillain-BarreSyndromeGBS.cs" />
+    <Compile Include="GuillainBarreSyndromeGBS.cs" />
     <Compile Include="Hematology.cs" />
     <Compile Include="Hemophilia.cs" />
     <Compile Include="Hepatic.cs" />
@@ -216,9 +217,11 @@
     <Compile Include="MalignantHyperthermia.cs" />
     <Compile Include="MarfansSyndrome.cs" />
     <Compile Include="MassiveHemoptysis.cs" />
+    <Compile Include="MDMAEcstasy.cs" />
     <Compile Include="MDMAEctasy.cs" />
     <Compile Include="Mediastinoscopy.cs" />
     <Compile Include="Metamphetamines.cs" />
+    <Compile Include="Methamphetamines.cs" />
     <Compile Include="MicrolaryngoscopyAndAirwayLaser.cs" />
     <Compile Include="MitralRegurgitation.cs" />
     <Compile Include="MitralStenosis.cs" />
@@ -312,11 +315,24 @@
     <Compile Include="VenousAirEmbolism.cs" />
     <Compile Include="VonWillebrandsDisease.cs" />
     <Compile Include="WegenersGranulomatosis.cs" />
-    <Compile Include="Wolff-Parkinson-WhiteSyndrome.cs" />
+    <BundleResource Include="Hemophilia A&amp;B.png" />
+    <BundleResource Include="Mitral Stenosis.png" />
+    <BundleResource Include="Pulmonary Hypertension.png" />
+    <BundleResource Include="Von Willebrand%27s Disease %28vWD%29 Recommended Dosages.png" />
+    <BundleResource Include="Von Willebrand%27s Disease %28vWD%29 Treatment Choices Based on Sub-types.png" />
+    <Compile Include="WolffParkinsonWhiteSyndrome.cs" />
     <None Include="GettingStarted.Xamarin" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
+    <BundleResource Include="Aortic Stenosis.png" />
+    <BundleResource Include="Asthma.png" />
+    <BundleResource Include="Atrial Fibrillation.png" />
+    <BundleResource Include="Chronic Obstructive Lung Disease %28COPD%29.png" />
+    <BundleResource Include="Diabetes Mellitus.png" />
+    <BundleResource Include="Dyspnea in Pregnancy.png" />
+    <Content Include="anesthesiaconsiderations-Android.csproj.user" />
+    <Content Include="anesthesiaconsiderations-iOS.csproj.user" />
     <Content Include="Entitlements.plist" />
     <None Include="packages.config" />
   </ItemGroup>

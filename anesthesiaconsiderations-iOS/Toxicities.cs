@@ -69,14 +69,14 @@ namespace FormsGallery
                             {
                                 Text = "MDMA (Ectasy)",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(MDMAEctasy)
+                                CommandParameter = typeof(MDMAEcstasy)
                             },
 
                             new TextCell
                             {
                                 Text = "Metamphetamines",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(Metamphetamines)
+                                CommandParameter = typeof(Methamphetamines)
                             },
 
                             new TextCell

@@ -313,7 +313,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Disposition to ICU for monitoring & supportive care",
+                                    Text = "Disposition to ICU for monitoring & supportive care\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -328,7 +328,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Pregnancy Considerations",
+                                    Text = "Pregnancy Considerations",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },

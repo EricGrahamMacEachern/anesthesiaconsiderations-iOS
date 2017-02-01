@@ -235,7 +235,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Difficult IV access, regional/neuraxial, monitoring & positioning ",
+                                    Text = "Difficult IV access, regional/neuraxial, monitoring & positioning\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -250,7 +250,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Goals",
+                                    Text = "Goals",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -337,7 +337,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Goals for pulmonary hypertension if applicable ",
+                                    Text = "Goals for pulmonary hypertension if applicable \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -352,7 +352,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Pregnancy Considerations ",
+                                    Text = "Pregnancy Considerations ",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },

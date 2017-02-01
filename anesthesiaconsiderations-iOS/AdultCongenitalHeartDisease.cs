@@ -191,7 +191,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "↑ perioperative risk requiring multidisciplinary care",
+                                    Text = "↑ perioperative risk requiring multidisciplinary care\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -206,7 +206,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "Anesthetic Considerations",
+                                    Text = "Goals & Conflicts",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },

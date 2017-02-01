@@ -195,7 +195,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Examine entire airway (including bronchoscopy) to assess injury & remove residual debris",
+                                        "Examine entire airway (including bronchoscopy) to assess injury & remove residual debris\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

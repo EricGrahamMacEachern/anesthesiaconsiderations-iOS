@@ -50,12 +50,6 @@ namespace FormsGallery
                                 Command = navigateCommand,
                                 CommandParameter = typeof(MicrolaryngoscopyAndAirwayLaser)
                             },
-                            new TextCell
-                            {
-                                Text = "Extravasation Injuries",
-                                Command = navigateCommand,
-                                CommandParameter = typeof(ExtravasationInjuries)
-                            },
 
                             new TextCell
                             {
