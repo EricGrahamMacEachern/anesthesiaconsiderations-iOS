@@ -331,7 +331,6 @@
     <BundleResource Include="Chronic Obstructive Lung Disease %28COPD%29.png" />
     <BundleResource Include="Diabetes Mellitus.png" />
     <BundleResource Include="Dyspnea in Pregnancy.png" />
-    <Content Include="anesthesiaconsiderations-Android.csproj.user" />
     <Content Include="anesthesiaconsiderations-iOS.csproj.user" />
     <Content Include="Entitlements.plist" />
     <None Include="packages.config" />

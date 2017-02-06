@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 
+
 namespace FormsGallery
 {
     class Sepsis : ContentPage
@@ -15,6 +16,17 @@ namespace FormsGallery
                 });
 
             BackgroundColor = Color.White;
+
+            Button button = new Button();
+
+
+
+            /*button.Click += (sender, e) => {
+
+                var uri = Android.Net.Uri.Parse("http://www.xamarin.com");
+                var intent = new Intent(Intent.ActionView, uri);
+                StartActivity(intent);
+            };*/
 
             Label header = new Label
             {
@@ -322,12 +334,24 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Follow Surviving Sepsis Guidelines: open local pdf",
+                                    Text = "Follow Surviving Sepsis Guidelines: ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
+
+                               new WebView
+                               {
+                                    HeightRequest = 100, WidthRequest = 100, Source = "file:///testing.png",
+                              },
+
+                              new WebView
+                               {
+                                    HeightRequest = 100, WidthRequest = 100, Source = "file:///sepsis.html",
+                              },
                             }
                         },
+
+
 
 
                         new StackLayout
