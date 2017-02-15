@@ -53,7 +53,7 @@ namespace FormsGallery
 
                             new TextCell
                             {
-                                Text = "BullousLungDisease",
+                                Text = "Bullous Lung Disease",
                                 Command = navigateCommand,
                                 CommandParameter = typeof(BullousLungDisease)
                             },
@@ -77,6 +77,13 @@ namespace FormsGallery
                                 Text = "Esophagectomy",
                                 Command = navigateCommand,
                                 CommandParameter = typeof(Esophagectomy)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Lung Cancer",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(LungCancer)
                             },
 
                             new TextCell

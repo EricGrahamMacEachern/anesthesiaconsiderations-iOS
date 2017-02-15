@@ -32,6 +32,13 @@ namespace FormsGallery
 
                             new TextCell
                             {
+                                Text = "Aneurism Coiling",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(AneurismCoiling)
+                            },
+
+                            new TextCell
+                            {
                                 Text = "Arnold Chiari Malformation",
                                 Command = navigateCommand,
                                 CommandParameter = typeof(ArnoldChiariMalformation)

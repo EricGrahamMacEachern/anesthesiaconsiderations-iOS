@@ -93,7 +93,14 @@ namespace FormsGallery
 
                             new TextCell
                             {
-                                Text = "Placental Abruption",
+                                Text = "Fontan Physiology",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(FontanPhysiology)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Former Premature Infant",
                                 Command = navigateCommand,
                                 CommandParameter = typeof(FormerPrematureInfant)
                             },

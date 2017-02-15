@@ -637,10 +637,15 @@ namespace FormsGallery
                                     Text = " ",
                                     FontSize = 5,
                                 },
+                                
+                                new WebView
+                                {
+                                    WidthRequest = 753, HeightRequest = 254,  Source = "https://static.wixstatic.com/media/9524a5_7629404c81c34ef58f6ef78b2c04572b.png/v1/fill/w_723,h_254,al_c,usm_0.66_1.00_0.01/9524a5_7629404c81c34ef58f6ef78b2c04572b.png",
+                                },
+
                             }
                         },
 
-                        //table
         }
                 }
             };

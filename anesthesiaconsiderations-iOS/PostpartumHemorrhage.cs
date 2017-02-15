@@ -793,7 +793,7 @@ namespace FormsGallery
                             }
                         },
 
-                        // Add PDF links. 
+                        // PDF links. 
 
                         new StackLayout
                         {
@@ -801,18 +801,15 @@ namespace FormsGallery
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "SOGC 2009: https://sogc.org/wp-content/uploads/2013/01/gui235CPG0910.pdf",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
+                              new Button
+                              {
+
+                                Text = "SOGC 2009",
+
+
+                                Command = new Command(() => {Device.OpenUri(new Uri("https://sogc.org/wp-content/uploads/2013/01/gui235CPG0910.pdf"));})
+
+                              },
                             }
                         },
 
@@ -823,20 +820,16 @@ namespace FormsGallery
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "WHO 2012: http://apps.who.int/iris/bitstream/10665/75411/1/9789241548502_eng.pdf",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
+                              new Button
+                              {
 
-                            }
-                        },
+                                Text = "WHO 2012",
+
+
+                                Command = new Command(() => {Device.OpenUri(new Uri("http://apps.who.int/iris/bitstream/10665/75411/1/9789241548502_eng.pdf"));})
+
+                              },
+                            },
                     }
                   }
                 }

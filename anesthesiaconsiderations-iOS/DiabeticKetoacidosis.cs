@@ -790,11 +790,20 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "For example, see BC Children's Hospital's DKA protocol: link to\n",
+                                    Text = "For example, see BC Children's Hospital's DKA protocol:\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
-                                },                           
+                                },
 
+                              new Button
+                              {
+
+                                Text = "DKA Protocol",
+
+
+                                Command = new Command(() => {Device.OpenUri(new Uri("http://www.bcchildrens.ca/endocrinology-diabetes-site/Documents/dkaprtfill.pdf"));})
+
+                              },
 
                             }
                         },

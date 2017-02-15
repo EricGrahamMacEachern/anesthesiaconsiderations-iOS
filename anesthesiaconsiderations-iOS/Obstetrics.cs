@@ -32,6 +32,13 @@ namespace FormsGallery
 
                             new TextCell
                             {
+                                Text = "Antepartum Hemorrhage",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(AntepartumHemorrhage)
+                            },
+
+                            new TextCell
+                            {
                                 Text = "Breech Presentation",
                                 Command = navigateCommand,
                                 CommandParameter = typeof(BreechPresentation)

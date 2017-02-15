@@ -158,6 +158,12 @@ namespace FormsGallery
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
+
+
+                                new WebView
+                                {
+                                    WidthRequest = 446, HeightRequest = 229,  Source = "https://static.wixstatic.com/media/9524a5_39b89332b15d4d939390274a9480690c~mv2.png/v1/fill/w_446,h_229,al_c,usm_0.66_1.00_0.01/9524a5_39b89332b15d4d939390274a9480690c~mv2.png",
+                                },
                             }
                         },
 

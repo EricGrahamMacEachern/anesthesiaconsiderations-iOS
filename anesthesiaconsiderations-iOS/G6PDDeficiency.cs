@@ -760,10 +760,20 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "For a more complete list, visit: <a href=\"http://www.g6pd.org/en/G6PDDeficiency/SafeUnsafe.aspx\">G6PD & Drugs</a>",
+                                    Text = "For a more complete list, visit: \n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
+
+                              new Button
+                              {
+
+                                Text = "G6PD & Drugs",
+
+
+                                Command = new Command(() => {Device.OpenUri(new Uri("http://www.g6pd.org/en/G6PDDeficiency/SafeUnsafe.aspx"));})
+
+                              },
                             }
                         },
 

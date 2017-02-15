@@ -1440,25 +1440,19 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Milrinone: 0.25-0.75 mcg/kg/min; possible loading dose is 50mcg/kg over 10 min ",
+                                    Text = "Milrinone: 0.25-0.75 mcg/kg/min; possible loading dose is 50mcg/kg over 10 min \n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                       //table
+                                                       new WebView
+                                {
+                                    WidthRequest = 600, HeightRequest = 487,  Source = "https://static.wixstatic.com/media/9524a5_2c4dccb52aae4ca7b9b05636f74809c3.png/v1/fill/w_600,h_487,al_c,usm_0.66_1.00_0.01/9524a5_2c4dccb52aae4ca7b9b05636f74809c3.png",
+                                },
 
-
-
-
-
-
-
-
-
-
-                }
+                  }
                 }
             };
 

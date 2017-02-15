@@ -50,6 +50,14 @@ namespace FormsGallery
                                 Command = navigateCommand,
                                 CommandParameter = typeof(Hemophilia)
                             },
+
+                            new TextCell
+                            {
+                                Text = "Jehova's Witness Patients",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(JehovasWitnessPatients)
+                            },
+
                             new TextCell
                             {
                                 Text = "Sickle Cell Disease",
@@ -71,12 +79,6 @@ namespace FormsGallery
                                 CommandParameter = typeof(TumorLysisSyndrome)
                             },
 
-                            new TextCell
-                            {
-                                Text = "Neuromuscular",
-                                Command = navigateCommand,
-                                CommandParameter = typeof(Neuromuscular)
-                            },
 
                             new TextCell
                             {

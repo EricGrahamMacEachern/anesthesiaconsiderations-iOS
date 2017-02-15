@@ -4,11 +4,22 @@ using Xamarin.Forms;
 
 namespace FormsGallery
 {
+
     class Sepsis : ContentPage
     {
+
+
+
         public Sepsis()
         {
-            Command<Type> navigateCommand =
+
+            Button emailButton = new Button { Text = "Website Contact" };
+            emailButton.Clicked += (sender, e) =>
+            {
+                Device.OpenUri(new Uri("http://www.anesthesiaconsiderations.com/"));
+            };
+
+            Command <Type> navigateCommand =
                 new Command<Type>(async (Type pageType) =>
                 {
                     Page page = (Page)Activator.CreateInstance(pageType);
@@ -16,17 +27,6 @@ namespace FormsGallery
                 });
 
             BackgroundColor = Color.White;
-
-            Button button = new Button();
-
-
-
-            /*button.Click += (sender, e) => {
-
-                var uri = Android.Net.Uri.Parse("http://www.xamarin.com");
-                var intent = new Intent(Intent.ActionView, uri);
-                StartActivity(intent);
-            };*/
 
             Label header = new Label
             {
@@ -334,25 +334,31 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Follow Surviving Sepsis Guidelines: ",
+                                    Text = "Follow Surviving Sepsis Guidelines: \n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
 
-                               new WebView
-                               {
-                                    HeightRequest = 100, WidthRequest = 100, Source = "file:///testing.png",
-                              },
+                              new Button
+                              {
 
-                              new WebView
-                               {
-                                    HeightRequest = 100, WidthRequest = 100, Source = "file:///sepsis.html",
-                              },
+                                Text = "Surviving Sepsis Guidelines",
+
+
+    Command = new Command(() => {Device.OpenUri(new Uri("http://www.sccm.org/Documents/SSC-Guidelines.pdf"));})
+
+
+            /* Does not compile. "Invalid initializer member declarator"
+            Clicked += (sender,e) =>
+            {
+             Device.OpenUri(new Uri("http://www.sccm.org/Documents/SSC-Guidelines.pdf"));
+            }
+            */
+
+        },
+
                             }
                         },
-
-
-
 
                         new StackLayout
                         {
@@ -823,5 +829,7 @@ namespace FormsGallery
                 }
             };
         }
+
+        public Func<object, object, object> Clicked { get; private set; }
     }
 }

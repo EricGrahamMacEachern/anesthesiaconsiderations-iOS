@@ -115,8 +115,10 @@
     <Compile Include="Amyloidosis.cs" />
     <Compile Include="AmyotrophicLateralSclerosisALS.cs" />
     <Compile Include="Anaphylaxis.cs" />
+    <Compile Include="AneurismCoiling.cs" />
     <Compile Include="AnkylosingSpondylitis.cs" />
     <Compile Include="AnorexiaNervosa.cs" />
+    <Compile Include="AntepartumHemorrhage.cs" />
     <Compile Include="AnteriorMediastinalMass.cs" />
     <Compile Include="AorticDissection.cs" />
     <Compile Include="AorticRegurgitation.cs" />
@@ -209,9 +211,11 @@
     <Compile Include="Hypoxemia.cs" />
     <Compile Include="IncreasedAirwayPressure.cs" />
     <Compile Include="InfectiveEndocarditisProphylaxis.cs" />
+    <Compile Include="JehovasWitnessPatients.cs" />
     <Compile Include="LabelDemoPage.cs" />
     <Compile Include="Legal.cs" />
     <Compile Include="LocalAnestheticToxicity.cs" />
+    <Compile Include="LungCancer.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="MalignantHyperthermia.cs" />
@@ -321,6 +325,10 @@
     <BundleResource Include="Von Willebrand%27s Disease %28vWD%29 Recommended Dosages.png" />
     <BundleResource Include="Von Willebrand%27s Disease %28vWD%29 Treatment Choices Based on Sub-types.png" />
     <Compile Include="WolffParkinsonWhiteSyndrome.cs" />
+    <BundleResource Include="testing.png" />
+    <BundleResource Include="Tracheoesophageal Fistula.png" />
+    <BundleResource Include="Von_Willebrands_Disease _vWD_Recommended_Dosages.png" />
+    <BundleResource Include="Von_Willebrands_Disease_vWD_Treatment_Choices_Based_on_Sub_types.png" />
     <None Include="GettingStarted.Xamarin" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -331,7 +339,6 @@
     <BundleResource Include="Chronic Obstructive Lung Disease %28COPD%29.png" />
     <BundleResource Include="Diabetes Mellitus.png" />
     <BundleResource Include="Dyspnea in Pregnancy.png" />
-    <Content Include="anesthesiaconsiderations-iOS.csproj.user" />
     <Content Include="Entitlements.plist" />
     <None Include="packages.config" />
   </ItemGroup>
