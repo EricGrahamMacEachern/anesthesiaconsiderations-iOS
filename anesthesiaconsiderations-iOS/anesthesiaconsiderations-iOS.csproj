@@ -73,6 +73,9 @@
     <MtouchTlsProvider>Default</MtouchTlsProvider>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchFloat32>False</MtouchFloat32>
+    <BuildIpa>True</BuildIpa>
+    <IpaIncludeArtwork>False</IpaIncludeArtwork>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
     <DebugType>none</DebugType>
@@ -369,6 +372,11 @@
     <BundleResource Include="Tracheoesophageal Fistula.png" />
     <BundleResource Include="Von_Willebrands_Disease _vWD_Recommended_Dosages.png" />
     <BundleResource Include="Von_Willebrands_Disease_vWD_Treatment_Choices_Based_on_Sub_types.png" />
+    <BundleResource Include="Resources\Icon-120.png" />
+    <BundleResource Include="Resources\Icon-152.png" />
+    <BundleResource Include="Resources\Icon-83.5%402x.png" />
+    <BundleResource Include="Resources\Icon-60%402x.png" />
+    <BundleResource Include="Resources\Icon-76%402x.png" />
     <None Include="GettingStarted.Xamarin" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -379,7 +387,8 @@
     <BundleResource Include="Chronic Obstructive Lung Disease %28COPD%29.png" />
     <BundleResource Include="Diabetes Mellitus.png" />
     <BundleResource Include="Dyspnea in Pregnancy.png" />
-    <Content Include="Entitlements.plist" />
+    <None Include="Entitlements.plist" />
+    <ITunesArtwork Include="iTunesArtwork%402x" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
