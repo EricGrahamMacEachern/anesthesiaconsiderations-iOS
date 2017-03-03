@@ -576,7 +576,7 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = 20,
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -597,7 +597,7 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = 20,
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -618,7 +618,7 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = 20,
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -639,7 +639,7 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = 20,
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -660,7 +660,7 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = 20,
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {

@@ -25,7 +25,7 @@
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
     <CodesignKey>iPhone Distribution: Eric MacEachern (ZYCAHW5WQ7)</CodesignKey>
-    <CodesignProvision>477d5b42-8f8b-415f-9486-d66a6e0d7b37</CodesignProvision>
+    <CodesignProvision>0f509e99-4160-4aa4-8795-3b10befb01b9</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>

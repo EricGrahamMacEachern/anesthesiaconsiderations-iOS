@@ -478,13 +478,12 @@ namespace FormsGallery
                         },
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = 20,
                             //Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
                                     Text = "IV access, CVC, arterial line (R arm AND L arm or femoral)\n\n",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
@@ -498,13 +497,11 @@ namespace FormsGallery
                         },
                         new StackLayout
                         {
-                            Padding = 0,
-                            //Orientation = StackOrientation.Horizontal,
+                            Padding = 20,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
                                     Text = "Hemodynamic goals ",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
