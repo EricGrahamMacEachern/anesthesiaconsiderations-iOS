@@ -24,8 +24,6 @@
     <MtouchArch>i386</MtouchArch>
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
-    <CodesignKey>iPhone Distribution: Eric MacEachern (ZYCAHW5WQ7)</CodesignKey>
-    <CodesignProvision>0f509e99-4160-4aa4-8795-3b10befb01b9</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
@@ -47,7 +45,6 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
-    <CodesignKey>iPhone Developer: Eric MacEachern (6G99N77U76)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
@@ -58,7 +55,6 @@
     <WarningLevel>4</WarningLevel>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <ConsolePause>false</ConsolePause>
-    <CodesignKey>iPhone Distribution</CodesignKey>
     <MtouchSdkVersion>10.2</MtouchSdkVersion>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchDebug>False</MtouchDebug>
@@ -88,9 +84,6 @@
     <CodesignEntitlements>
     </CodesignEntitlements>
     <BuildIpa>True</BuildIpa>
-    <CodesignProvision>Automatic:AdHoc</CodesignProvision>
-    <CodesignKey>
-    </CodesignKey>
     <MtouchSdkVersion>10.2</MtouchSdkVersion>
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>False</MtouchDebug>
@@ -114,8 +107,6 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>False</ConsolePause>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
-    <CodesignKey>iPhone Developer: Eric MacEachern (6G99N77U76)</CodesignKey>
-    <CodesignProvision>9cec944a-f677-4c89-b1c9-d0a90a026847</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhoneSimulator'">
     <BuildIpa>True</BuildIpa>
@@ -171,7 +162,8 @@
     <Compile Include="ArnoldChiariMalformation.cs" />
     <Compile Include="ASAToxicity.cs" />
     <Compile Include="Asthma.cs" />
-    <Compile Include="AtrialFibrillation.cs" />
+    <Compile Include="AtrialFibrilation.cs" />
+    <Compile Include="HypertrophicObstructiveCardiomyopathyHOCM.cs" />
     <Compile Include="AtrialSeptalDefect.cs" />
     <Compile Include="AutonomicHyperreflexia.cs" />
     <Compile Include="BetaBlockerOverdose.cs" />

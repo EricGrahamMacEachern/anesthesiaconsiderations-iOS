@@ -3,9 +3,9 @@ using Xamarin.Forms;
 
 namespace FormsGallery
 {
-    class AtrialFibrilation : ContentPage
+    class HypertrophicObstructiveCardiomyopathyHOCM : ContentPage
     {
-        public AtrialFibrilation()
+        public HypertrophicObstructiveCardiomyopathyHOCM()
         {
             Command<Type> navigateCommand =
                 new Command<Type>(async (Type pageType) =>
