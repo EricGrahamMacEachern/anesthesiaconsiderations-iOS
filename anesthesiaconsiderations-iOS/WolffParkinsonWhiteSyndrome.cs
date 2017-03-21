@@ -121,7 +121,7 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
+                            Padding = 0,
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -328,6 +328,27 @@ namespace FormsGallery
                             }
                         },
 
+
+                        new StackLayout
+                        {
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Acute termination of antidromic AVRT: ",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
                         new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
@@ -393,7 +414,7 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
+                            Padding = new Thickness(40, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -520,7 +541,7 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
+                            Padding = new Thickness(40, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -542,7 +563,7 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
+                            Padding = new Thickness(40, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -563,7 +584,7 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
+                            Padding = new Thickness(40, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {

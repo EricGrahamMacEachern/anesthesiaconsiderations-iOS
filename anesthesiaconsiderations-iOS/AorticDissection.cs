@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = "Aortic Dissection ",
+                Text = "Aortic Dissection",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,
@@ -470,49 +470,57 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Medical stabilization:\n\n",
+                                        "Medical stabilization:",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
                         new StackLayout
                         {
-                            Padding = 20,
-                            //Orientation = StackOrientation.Horizontal,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    Text = "IV access, CVC, arterial line (R arm AND L arm or femoral)\n\n",
+                                    Text = "• ",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
                                 },
                                 new Label
                                 {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    FontSize = 16,
+                                    Text =
+                                        "IV access, CVC, arterial line (R arm AND L arm or femoral)",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
                         new StackLayout
                         {
-                            Padding = 20,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    Text = "Hemodynamic goals ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
                                 },
                                 new Label
                                 {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    FontSize = 16,
+                                    Text =
+                                        "​Hemodynamic goals ",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
                         new StackLayout
                         {
                             Padding = new Thickness(40, 0, 0, 0),

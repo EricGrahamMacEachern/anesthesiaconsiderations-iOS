@@ -617,7 +617,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hypoglycemia",
+                                    Text = "Hypoglycemia\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -813,7 +813,7 @@ namespace FormsGallery
 
                                 new WebView
                                 {
-                                    WidthRequest = 828, HeightRequest = 476,  Source = "https://static.wixstatic.com/media/9524a5_3ecda7f3c7b449a0bb87338617d379f6.png/v1/fill/w_420,h_146,al_c,usm_0.66_1.00_0.01/9524a5_3ecda7f3c7b449a0bb87338617d379f6.png",
+                                    WidthRequest = 338, HeightRequest = 194,  Source = "http://nebula.wsimg.com/f28d96ce5f99957bf40ec52b11cdf53d?AccessKeyId=624E64EA7E37A08FD6A3&disposition=0&alloworigin=1",
                                 },
                             }
                         },

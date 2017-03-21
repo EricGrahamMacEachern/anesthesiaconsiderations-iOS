@@ -50,6 +50,14 @@ namespace FormsGallery
                                 Command = navigateCommand,
                                 CommandParameter = typeof(CrushInjuries)
                             },
+
+                            new TextCell
+                            {
+                                Text = "Drowning",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Drowning)
+                            },
+
                             new TextCell
                             {
                                 Text = "Organ Donation",

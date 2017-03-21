@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anesthesiaconsiderations-iOS", "anesthesiaconsiderations-iOS\anesthesiaconsiderations-iOS.csproj", "{9D803FA5-63E5-4ED9-ACE8-E3457C224AB6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{974A23C9-3DA0-4C6B-B9F8-B39DD9284CE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|iPhone = Ad-Hoc|iPhone

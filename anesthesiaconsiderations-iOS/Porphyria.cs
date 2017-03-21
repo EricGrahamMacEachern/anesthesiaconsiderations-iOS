@@ -741,7 +741,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "Considerations",
+                                    Text = "Complications",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },

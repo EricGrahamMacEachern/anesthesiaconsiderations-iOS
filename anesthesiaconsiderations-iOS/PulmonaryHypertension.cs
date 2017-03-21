@@ -1447,10 +1447,32 @@ namespace FormsGallery
                             }
                         },
 
-                                                       new WebView
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    FontSize = 20,
+                                    Text = "WHO Pulmonary Hypertension Classification ",
+                                    TextColor = Color.Black,
+                                    FontAttributes = FontAttributes.Bold,
+                                },
+                                new Label
+                                {
+                                    Text = " ",
+                                    FontSize = 5,
+                                },
+
+                                new WebView
                                 {
                                     WidthRequest = 600, HeightRequest = 487,  Source = "https://static.wixstatic.com/media/9524a5_2c4dccb52aae4ca7b9b05636f74809c3.png/v1/fill/w_600,h_487,al_c,usm_0.66_1.00_0.01/9524a5_2c4dccb52aae4ca7b9b05636f74809c3.png",
                                 },
+                            }
+                        },
+
+
 
                   }
                 }

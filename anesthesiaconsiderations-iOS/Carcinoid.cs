@@ -340,27 +340,6 @@ namespace FormsGallery
                             }
                         },
 
-                       new StackLayout
-                        {
-                            Padding = new Thickness(40, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Hypovolemic/cardiogenic shock/low cardiac output state → septic shock/high cardiac output state\n\n",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
                         new StackLayout
                         {
                             Padding = 0,

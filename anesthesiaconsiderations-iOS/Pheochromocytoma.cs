@@ -1183,7 +1183,7 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "4. ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
                                 },
                                 new Label

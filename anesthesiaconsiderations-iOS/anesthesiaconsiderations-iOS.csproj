@@ -163,6 +163,7 @@
     <Compile Include="ASAToxicity.cs" />
     <Compile Include="Asthma.cs" />
     <Compile Include="AtrialFibrilation.cs" />
+    <Compile Include="Drowning.cs" />
     <Compile Include="HypertrophicObstructiveCardiomyopathyHOCM.cs" />
     <Compile Include="AtrialSeptalDefect.cs" />
     <Compile Include="AutonomicHyperreflexia.cs" />
