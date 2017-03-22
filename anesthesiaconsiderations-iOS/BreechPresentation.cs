@@ -359,28 +359,6 @@ namespace FormsGallery
                             }
                         },
 
-
-                        new StackLayout
-                        {
-                            Padding = new Thickness(40, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Replace K+ if < 2.5\n\n",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
                        new StackLayout
                         {
                             Padding = 0,

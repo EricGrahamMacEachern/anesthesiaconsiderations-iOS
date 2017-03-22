@@ -15,13 +15,13 @@ namespace FormsGallery
                     await this.Navigation.PushAsync(page);
                 });
 
-            this.Title = "Obstetrics";
+            this.Title = "Pediatrics";
             this.Content = new TableView
             {
                 Intent = TableIntent.Menu,
                 Root = new TableRoot
                     {
-                        new TableSection("Obstetrics")
+                        new TableSection("Pediatrics")
                         {
                             new TextCell
                             {

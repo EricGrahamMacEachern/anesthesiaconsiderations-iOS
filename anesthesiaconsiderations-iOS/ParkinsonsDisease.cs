@@ -824,7 +824,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "Causes of Intra-operative Pacemaker Failure ",
+                                    Text = "Conflicts",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -850,29 +850,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Generator failure (e.g. battery, malfunction) ",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-
-                       new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Lead failure (e.g. dislodgement) ",
+                                    Text = "Aspiration risk vsautonomic instability/difficult airway",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -893,92 +871,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Failure to capture",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                       new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Acid-base imbalance ",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                       new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Electrolyte abnormality ",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                       new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Ischemia/infarction ",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-
-                       new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Antiarrhytmics (overdose or withdrawal) \n\n",
+                                    Text = "Regional anesthesia with tremulous patient vs risks of GA\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -993,7 +886,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "Pacemaker Insertion Complications ",
+                                    Text = "Medications & Parkinsons ",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -1006,365 +899,6 @@ namespace FormsGallery
                         },
 
                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Pneumothorax",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                       new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Arterial puncture",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                       new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Arrhythmia",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                       new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Venous air embolism",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                       new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Cardiac perforation/tamponade \n\n",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    FontSize = 20,
-                                    Text = "Goals ",
-                                    TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
-                                },
-                                new Label
-                                {
-                                    Text = " ",
-                                    FontSize = 5,
-                                },
-                            }
-                        },
-
-                       new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Safe airway management:",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-
-                        new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Aspiration prophylaxis",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Modified RSI",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-
-                       new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Avoid clinical exacerbation:",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-
-                        new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Continue anti-parkinson medications perioperatively",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Avoid anti-dopaminergic medications: droperidol, metoclopramide, methotrimeprazine",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Avoid anti-dopaminergic medications: droperidol, metoclopramide, methotrimeprazine\n\n",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    FontSize = 20,
-                                    Text = "Conflicts ",
-                                    TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
-                                },
-                                new Label
-                                {
-                                    Text = " ",
-                                    FontSize = 5,
-                                },
-                            }
-                        },
-
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Aspiration risk vs autonomic instability/difficult airway",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Regional anesthesia with tremulous patient vs risks of GA\n\n",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    FontSize = 20,
-                                    Text = "Medications & Parkinsons ",
-                                    TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
-                                },
-                                new Label
-                                {
-                                    Text = " ",
-                                    FontSize = 5,
-                                },
-                            }
-                        },
-
-                        new StackLayout
                         {
                             Padding = 0,
                             Orientation = StackOrientation.Horizontal,
@@ -1385,7 +919,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                       new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -1406,7 +940,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                       new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -1427,7 +961,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                       new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -1448,8 +982,7 @@ namespace FormsGallery
                             }
                         },
 
-
-                        new StackLayout
+                       new StackLayout
                         {
                             Padding = 0,
                             Orientation = StackOrientation.Horizontal,
@@ -1470,7 +1003,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                       new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -1484,14 +1017,14 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Used to prevent central breakdown of dopamine to improve parkinson's symptoms",
+                                    Text = "Used to prevent central breakdown of dopamine to improve parkinson's symptoms",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        new StackLayout
+                       new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -1512,7 +1045,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                       new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -1526,15 +1059,14 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Avoid meperidine in patients taking selegiline (case reports of hyperthermia, agitation, muscle rigidity & seizures)  ",
+                                    Text = "Avoid meperidine in patients taking selegiline (case reports of hyperthermia, agitation, muscle rigidity & seizures) ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-
-                        new StackLayout
+                       new StackLayout
                         {
                             Padding = 0,
                             Orientation = StackOrientation.Horizontal,
@@ -1555,8 +1087,7 @@ namespace FormsGallery
                             }
                         },
 
-
-                        new StackLayout
+                       new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -1570,14 +1101,14 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "May have ↑ muscle rigidity with fentanyl & morphine",
+                                    Text = "May have ↑ muscle rigidity with fentanyl & morphine",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        new StackLayout
+                       new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -1591,15 +1122,12 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Dystonic reactions associated with use of alfentanil & fentanyl",
+                                    Text = "Dystonic reactions associated with use of alfentanil & fentanyl",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
-
-
-
                     }
                 }
             };

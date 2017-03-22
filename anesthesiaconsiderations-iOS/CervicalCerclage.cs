@@ -44,7 +44,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "Background ",
+                                    Text = "Considerations ",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -70,7 +70,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "A disorder of movement & posture due to a static encephalopathy",
+                                    Text = "Pregnancy considerations (difficult intubation, aspiration, ↓ time to desaturation, aortocaval compression, 2 patients)",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -91,7 +91,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Huge spectrum of presentation: almost asymptomatic to completely dependent ",
+                                    Text = "Risk of membrane rupture and degree of cervical dilation may dictate mode of anesthesia",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -112,7 +112,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Caused by a cerebral insult in the immature brain that occurred prenatally, perinatally, or during infancy",
+                                    Text = "Potential need for uterine relaxation and avoidance of coughing, straining, position changes that provoke bulging and rupture of membranes",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -133,71 +133,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "The motor deficit may manifest as:",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Huge spectrum of presentation: almost asymptomatic to completely dependent ",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Caused by a cerebral insult in the immature brain that occurred prenatally, perinatally, or during infancy",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "The motor deficit may manifest as:",
+                                    Text = "Considerations for fetus:",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -218,49 +154,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hypotonia",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                      new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Spasticity",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                      new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Extrapyramidal features such as choreoathetoid/dystonic movements or ataxia\n\n",
+                                    Text = "Risk of preterm labor and need for fetal monitoring, avoidance of contraindicated medications (NSAIDS) after 32 weeks\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -275,7 +169,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "Considerations",
+                                    Text = "Management",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -301,7 +195,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "↓ C-spine mobility & possible difficult intubation",
+                                    Text = "Depends on degree of cervical dilation with standard options of spinal, epidural or GA for transvaginal cerclage",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -322,7 +216,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Aspiration risk (GERD/↓lower esophageal sphincter tone)",
+                                    Text = "Pudendal nerve block often inadequate",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -343,7 +237,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Pulmonary:",
+                                    Text = "If no cervical dilation:",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -364,49 +258,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Recurrent aspiration & pulmonary impairment",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                      new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Scoliosis & ↑ bleeding risk during scoliosis surgery",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                      new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Rule out pulmonary HTN/RV failure ",
+                                    Text = "Typically spinal (or epidural) anesthesia requiring a T10 to S4 block (cervix: T10-L1 & vagina / perineum: S2-4)",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -427,7 +279,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "CNS:",
+                                    Text = "If cervical dilation present:",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -448,7 +300,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Developmental delay/lack of cooperation",
+                                    Text = "Goals: produce adequate analgesia, prevent increase in intrauterine/intraabdominal pressure",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -469,7 +321,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Seizure d/o",
+                                    Text = "Type of anesthesia depends on presence of bulging membranes and need for uterine relaxation:",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -478,7 +330,7 @@ namespace FormsGallery
 
                       new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
+                            Padding = new Thickness(40, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -490,14 +342,203 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hydrocephalus ",
+                                    Text = "Spinal:",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        new StackLayout
+                      new StackLayout
+                        {
+                            Padding = new Thickness(60, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Risk of sitting position and lumbar spine flexion leading to bulging of membranes, rupture and subsequent fetal death",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                      new StackLayout
+                        {
+                            Padding = new Thickness(60, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Consider placing spinal/epidural in lateral position",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                      new StackLayout
+                        {
+                            Padding = new Thickness(60, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Dose: 7.5 mg isobaric bupivacaine with fentanyl 15 mcg; alternative is 40 mg lidocaine",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                      new StackLayout
+                        {
+                            Padding = new Thickness(40, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Epidural:",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                      new StackLayout
+                        {
+                            Padding = new Thickness(60, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Midlumbar, 2% lidocaine with 5 mcg/mL epinephrine (10-15 mL total volume) with 100 mcg fentanyl for T8 block",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                      new StackLayout
+                        {
+                            Padding = new Thickness(40, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "General:",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                      new StackLayout
+                        {
+                            Padding = new Thickness(60, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Indicated if bulging membranes in order to facilitate uterine relaxation with volatile anesthetics",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                      new StackLayout
+                        {
+                            Padding = new Thickness(60, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Risks: coughing, bucking, vomiting leading to rupture of membranes, avoidance of GA in second trimester in terms of anesthetic exposure to fetus & risk of preterm delivery as well as risks of GA to parturient",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                      new StackLayout
+                        {
+                            Padding = new Thickness(60, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "CAS monitors, aspiration prophylaxis, left uterine displacement, RSI, maintain normal CO2, 0.5-1 MAC volatile plus opioid, fetal monitoring, avoidance of NSAIDS (ductus closure)",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                      new StackLayout
                         {
                             Padding = 0,
                             Orientation = StackOrientation.Horizontal,
@@ -511,7 +552,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Altered response to anesthetics:",
+                                    Text = "Removal of cervical cerclage: ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -532,7 +573,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "↓ MAC of volatiles & longer emergence ",
+                                    Text = "Removed at 37-38 weeks; earlier if rupture of membranes or if labor begins",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -553,7 +594,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "↑ sensitivity to muscle relaxants   ",
+                                    Text = "McDonald cerclage suture removal requires no anesthesia",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -574,16 +615,16 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Volatiles & succinylcholine NOT contraindicated",
+                                    Text = "Shirodkar suture removal requires anesthesia due to suture epithelialization; options are spinal or epidural",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        new StackLayout
+                      new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -595,16 +636,16 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Difficult IV access, monitoring, & positioning due to contractures ",
+                                    Text = "Some highly epithelialized sutures may require cesarean section",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        new StackLayout
+                      new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -616,35 +657,14 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Ex-premature conditions ",
+                                    Text = "If epidural catheter placed consider leaving it in as labor may ensue with a few hours",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "↑ risk of hypothermia",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-        }
+                   }
                 }
             };
 

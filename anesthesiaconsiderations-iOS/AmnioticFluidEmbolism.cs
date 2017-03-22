@@ -218,32 +218,13 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Need for multidisciplinary management including the ICU",
+                                    Text = "Need for multidisciplinary management including the ICU\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Consequences of decompression:\n\n",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
+
                         new StackLayout
                         {
                             Padding = 0,
@@ -284,6 +265,7 @@ namespace FormsGallery
                                 },
                             }
                         },
+
                         new StackLayout
                         {
                             Padding = 0,
@@ -298,52 +280,58 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hypotension, biphasic cardiovascular collapse:\n\n",
+                                    Text = "Hypotension, biphasic cardiovascular collapse:",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
                         new StackLayout
                         {
-                            Padding = 0,
-                            //Orientation = StackOrientation.Horizontal,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
-                                    Text = "First phase (initial 15-30 min):  RV failure & acute pulmonary hypertension\n\n",
+                                    Text = "• ",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
                                 },
                                 new Label
                                 {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    FontSize = 16,
+                                    Text =
+                                        "First phase (initial 15-30 min):  RV failure & acute pulmonary hypertension",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
                         new StackLayout
                         {
-                            Padding = 0,
-                            //Orientation = StackOrientation.Horizontal,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
-                                    Text = "Second phase: LV failure ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
                                 },
                                 new Label
                                 {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    FontSize = 16,
+                                    Text =
+                                        "Second phase: LV failure ",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
+
                         new StackLayout
                         {
                             Padding = 0,
@@ -358,12 +346,13 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hypoxemia, respiratory failure ",
+                                    Text = "Hypoxemia, respiratory failure ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
                         new StackLayout
                         {
                             Padding = 0,
@@ -378,12 +367,13 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Coagulopathy ",
+                                    Text = "Coagulopathy ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
                         new StackLayout
                         {
                             Padding = 0,
@@ -398,12 +388,13 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Seizures/coma \n\n",
+                                    Text = "Seizures/coma ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
                         new StackLayout
                         {
                             Padding = 0,
@@ -891,9 +882,31 @@ namespace FormsGallery
                                 },
                             }
                         },
+
                         new StackLayout
                         {
                             Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Obstetrical:",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -913,7 +926,7 @@ namespace FormsGallery
                         },
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -933,7 +946,7 @@ namespace FormsGallery
                         },
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -953,7 +966,7 @@ namespace FormsGallery
                         },
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -973,7 +986,7 @@ namespace FormsGallery
                         },
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -991,68 +1004,6 @@ namespace FormsGallery
                                 },
                             }
                         },
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Peripartum cardiomyopathy ",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-                       new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Uterine atony ",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                       new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Peripartum cardiomyopathy",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
                         new StackLayout
                         {
                             Padding = 0,
@@ -1093,6 +1044,7 @@ namespace FormsGallery
                                 },
                             }
                         },
+
                        new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
@@ -1113,7 +1065,8 @@ namespace FormsGallery
                                 },
                             }
                         },
-                       new StackLayout
+
+                        new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -1127,7 +1080,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Sepsis ",
+                                    Text = "Sepsis ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1147,7 +1100,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Anaphylaxis",
+                                    Text = "Anaphylaxis ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1167,7 +1120,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Venous air embolism",
+                                    Text = "Venous air embolism ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1187,7 +1140,67 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Transfusion reaction",
+                                    Text = "Transfusion reaction ",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                       new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Anesthetic: ",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                       new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "High neuraxial ",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+                       new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Local anesthetic toxicity ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1207,73 +1220,13 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Anesthetic:",
+                                    Text = "Medication error ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
-                       new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "High neuraxial ",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-                       new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Local anesthetic toxicity",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-                       new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Medication error ",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-                    }
+                     }
                 }
             };
 

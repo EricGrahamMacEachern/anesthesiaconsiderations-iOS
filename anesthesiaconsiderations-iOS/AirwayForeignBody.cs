@@ -240,13 +240,164 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text =
-                                        "Shared airway\n\n",
+                                    Text = "Shared airway",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Immobility required",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Ventilatory strategies, spontaneously-breathing method preferred\n\n",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            //Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    FontSize = 20,
+                                    Text = "Goals",
+                                    TextColor = Color.Black,
+                                    FontAttributes = FontAttributes.Bold,
+                                },
+                                new Label
+                                {
+                                    Text = " ",
+                                    FontSize = 5,
+                                },
+                            }
+                        },
+
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Maintain spontaneous ventilation (avoid hyperinflation/barotrauma, FB dislodgement/airway obstruction)",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Provide adequate analgesia for rigid bronchoscopy (avoid coughing/airway trauma)",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Effective teamwork with ENT throughout",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Prevent airway complications",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+
+
+
+
+
                         new StackLayout
                         {
                             Padding = 0,

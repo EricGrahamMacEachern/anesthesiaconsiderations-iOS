@@ -614,7 +614,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "Considerations ",
+                                    Text = "Gestational Age & Viability ",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -682,7 +682,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "<20 weeks: urgent cesarean section need not be considered because a gravid uterus of this size is unlikely to significantly compromise cardiac output",
+                                    Text = "<20 weeks: urgent cesarean section need not be considered because a gravid uterus of this size is unlikely to significantly compromise cardiac output",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -703,7 +703,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "20-23 weeks: consider cesarean section for maternal resuscitation NOT survival of infant",
+                                    Text = "20-23 weeks: consider cesarean section for maternal resuscitation NOT survival of infant",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -724,15 +724,12 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "> 24 weeks: cesarean section within 5 minutes for maternal & fetal resuscitation",
+                                    Text = "> 24 weeks: cesarean section within 5 minutes for maternal & fetal resuscitation",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
-
-
-
                   }
                 }
             };
