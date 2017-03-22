@@ -12,4 +12,4 @@ I used mostly pure C# for this app instead of XAML.
 I started the app around May, 2016. It will probably be done some time in early 2017. 
 
 by Eric Graham MacEachern
-email: maharg@live.ca or ericgrahammaceachern@gmail.com
+email: egm@ericgrahammaceachern.com
