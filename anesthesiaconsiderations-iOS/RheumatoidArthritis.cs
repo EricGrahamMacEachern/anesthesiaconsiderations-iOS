@@ -344,27 +344,6 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Careful positioning & documentation of pre-existing neurologic symptoms",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
                                     Text = "Rule out systemic disease & manage any existing abnormalities, especially cardiopulmonary \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start

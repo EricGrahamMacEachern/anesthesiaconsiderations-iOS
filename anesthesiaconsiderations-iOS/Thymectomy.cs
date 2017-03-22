@@ -85,7 +85,7 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "1. ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
                                 },
                                 new Label
@@ -106,7 +106,7 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "1. ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
                                 },
                                 new Label
@@ -127,7 +127,7 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "1. ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
                                 },
                                 new Label
@@ -148,7 +148,7 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "1. ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
                                 },
                                 new Label
@@ -169,7 +169,7 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "1. ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
                                 },
                                 new Label
@@ -190,7 +190,7 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "1. ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
                                 },
                                 new Label
@@ -211,7 +211,7 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "1. ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
                                 },
                                 new Label
@@ -252,7 +252,7 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "1. ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
                                 },
                                 new Label
@@ -273,7 +273,7 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "1. ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
                                 },
                                 new Label
@@ -295,7 +295,7 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "1. ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
                                 },
                                 new Label
@@ -316,7 +316,7 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "1. ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
                                 },
                                 new Label
@@ -337,7 +337,7 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "1. ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
                                 },
                                 new Label

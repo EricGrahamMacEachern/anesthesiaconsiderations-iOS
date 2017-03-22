@@ -396,20 +396,19 @@ namespace FormsGallery
                         new StackLayout
                         {
                             Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    Text = "• ",
+                                    FontSize = 20,
+                                    Text = "Goals",
                                     TextColor = Color.Black,
+                                    FontAttributes = FontAttributes.Bold,
                                 },
                                 new Label
                                 {
-                                    FontSize = 16,
-                                    Text = "Goals",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
+                                    Text = " ",
+                                    FontSize = 5,
                                 },
                             }
                         },

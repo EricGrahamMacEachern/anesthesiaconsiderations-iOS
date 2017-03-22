@@ -148,7 +148,7 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    FontSize = 16,
                                     Text = "Chronic amphetamine abuse:",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,

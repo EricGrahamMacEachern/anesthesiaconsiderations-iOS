@@ -639,7 +639,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "CDraw digoxin level",
+                                    Text = "Draw digoxin level",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -661,6 +661,27 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text = "Antidote = digibind:",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                      new StackLayout
+                        {
+                            Padding = new Thickness(40, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Dosing",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -829,6 +850,27 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
+                                    Text = "Arrhythmias: follow standard ACLS algorithms",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                      new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
                                     Text = "Avoid calcium even if hyperkalemic because patients have intracellular hypercalcemia & can worsen situation ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
@@ -836,7 +878,7 @@ namespace FormsGallery
                             }
                         },
 
-        }
+                   }
                 }
             };
 

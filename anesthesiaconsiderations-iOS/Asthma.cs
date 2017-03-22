@@ -1064,7 +1064,7 @@ namespace FormsGallery
 
                                 new WebView
                                 {
-                                    WidthRequest = 600, HeightRequest = 123,  Source = "https://static.wixstatic.com/media/9524a5_f4c99f6695f24fb8a98dc48de78f5cd6.png/v1/fill/w_519,h_140,al_c,usm_0.66_1.00_0.01/9524a5_f4c99f6695f24fb8a98dc48de78f5cd6.png",
+                                    WidthRequest = 600, HeightRequest = 123,  Source = "https://static.wixstatic.com/media/9524a5_5a52761ab5f847cbbce927b3a528895e.png/v1/fill/w_600,h_123,al_c,usm_0.66_1.00_0.01/9524a5_5a52761ab5f847cbbce927b3a528895e.png",
                                 },
                             }
                         },

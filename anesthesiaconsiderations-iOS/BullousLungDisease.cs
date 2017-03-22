@@ -377,12 +377,12 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    FontSize = 16,
                                     Text = "Options: double lumen ETT, bronchial blocker, endobronchial tube",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
@@ -397,12 +397,12 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    FontSize = 16,
                                     Text = "In a patient with marginal lung function, consider lobar/segmental isolation with a bronchial blocker",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
@@ -438,12 +438,12 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    FontSize = 16,
                                     Text = "RSI",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
@@ -458,12 +458,12 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    FontSize = 16,
                                     Text = "Awake fiberoptic intubation",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
@@ -478,12 +478,12 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    FontSize = 16,
                                     Text = "Inhalational induction",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,

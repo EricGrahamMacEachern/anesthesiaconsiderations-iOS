@@ -627,7 +627,7 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = new Thickness(40, 0, 0, 0),
+                            Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -648,7 +648,7 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = new Thickness(40, 0, 0, 0),
+                            Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
