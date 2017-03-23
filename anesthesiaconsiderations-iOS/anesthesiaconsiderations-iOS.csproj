@@ -56,7 +56,7 @@
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <ConsolePause>false</ConsolePause>
     <MtouchSdkVersion>10.2</MtouchSdkVersion>
-    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchLink>Full</MtouchLink>
     <MtouchDebug>False</MtouchDebug>
     <MtouchProfiling>False</MtouchProfiling>
     <MtouchFastDev>False</MtouchFastDev>
@@ -72,6 +72,9 @@
     <BuildIpa>True</BuildIpa>
     <IpaIncludeArtwork>False</IpaIncludeArtwork>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchNoSymbolStrip>False</MtouchNoSymbolStrip>
+    <CodesignKey>iPhone Distribution: Eric MacEachern (ZYCAHW5WQ7)</CodesignKey>
+    <CodesignProvision>0570f79a-6c4c-456a-8340-53f181ee4889</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
     <DebugType>none</DebugType>
