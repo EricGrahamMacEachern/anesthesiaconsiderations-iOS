@@ -7,9 +7,9 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.anesthesiaconsiderations.anesthesiaconsiderations</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.94</string>
+	<string>0.95</string>
 	<key>CFBundleVersion</key>
-	<string>0.94</string>
+	<string>0.95</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
@@ -42,7 +42,9 @@
 	<array>
 		<string>Icon-60@2x.png</string>
 		<string>Icon-76@2x.png</string>
-		<string>Icon-83.5@2x</string>
+		<string>Icon-83.5@2x.png</string>
 	</array>
+	<key>NSHomeKitUsageDescription</key>
+	<string>Allows the app to control HomeKit enabled devices.</string>
 </dict>
 </plist>
