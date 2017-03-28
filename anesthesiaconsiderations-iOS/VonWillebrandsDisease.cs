@@ -859,12 +859,12 @@ namespace FormsGallery
                                     Text = " ",
                                     FontSize = 5,
                                 },
-
-                                new WebView
+                                
+                                new Image
                                 {
-                                    WidthRequest = 683, HeightRequest = 347,  Source = "https://static.wixstatic.com/media/9524a5_d1e222f9881640f592fddc159a8167a0.png/v1/fill/w_683,h_347,al_c,usm_0.66_1.00_0.01/9524a5_d1e222f9881640f592fddc159a8167a0.png",
-                                },
-
+                                    //Aspect = Aspect.AspectFit,
+                                    Source = ImageSource.FromFile("image.png")
+                                }
                             }
                         },
                    }
