@@ -584,9 +584,9 @@ namespace FormsGallery
                                     Source = "Atrial Fibrilation.png",
                                 },
 
-                                new WebView
+                                new Image
                                 {
-                                    WidthRequest = 600, HeightRequest = 153,  Source = "https://static.wixstatic.com/media/9524a5_b7d48550cf6e4d6eaa0a095776653c11.png/v1/fill/w_600,h_153,al_c,usm_0.66_1.00_0.01/9524a5_b7d48550cf6e4d6eaa0a095776653c11.png",
+                                    Source = ImageSource.FromFile("atrialfibrilation.png"),
                                 },
 
                             }

@@ -200,9 +200,9 @@ namespace FormsGallery
                                     FontSize = 5,
                                 },
 
-                                new WebView
+                                new Image
                                 {
-                                    WidthRequest = 714, HeightRequest = 236,  Source = "https://static.wixstatic.com/media/9524a5_3ecda7f3c7b449a0bb87338617d379f6.png/v1/fill/w_420,h_146,al_c,usm_0.66_1.00_0.01/9524a5_3ecda7f3c7b449a0bb87338617d379f6.png",
+                                    Source = ImageSource.FromFile("dyspneainpregnancy.png"),
                                 },
                             }
                         },

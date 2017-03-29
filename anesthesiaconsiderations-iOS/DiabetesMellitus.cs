@@ -811,9 +811,9 @@ namespace FormsGallery
                                     FontSize = 5,
                                 },
 
-                                new WebView
+                                new Image
                                 {
-                                    WidthRequest = 338, HeightRequest = 194,  Source = "http://nebula.wsimg.com/f28d96ce5f99957bf40ec52b11cdf53d?AccessKeyId=624E64EA7E37A08FD6A3&disposition=0&alloworigin=1",
+                                    Source = ImageSource.FromFile("diabetesmellitus.png"),
                                 },
                             }
                         },

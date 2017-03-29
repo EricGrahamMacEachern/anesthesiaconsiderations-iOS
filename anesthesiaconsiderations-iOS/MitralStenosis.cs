@@ -577,9 +577,9 @@ namespace FormsGallery
                                     FontSize = 5,
                                 },
 
-                                new WebView
+                                new Image
                                 {
-                                    WidthRequest = 436, HeightRequest = 139,  Source = "https://static.wixstatic.com/media/9524a5_58b91cace2d04c34b05495e230374f1c.png/v1/fill/w_436,h_139,al_c,usm_0.66_1.00_0.01/9524a5_58b91cace2d04c34b05495e230374f1c.png",
+                                    Source = ImageSource.FromFile("mitralstenosis.png"),
                                 },
                             }
                         },

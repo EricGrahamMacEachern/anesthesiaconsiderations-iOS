@@ -1062,9 +1062,9 @@ namespace FormsGallery
                                     FontSize = 5,
                                 },
 
-                                new WebView
+                                new Image
                                 {
-                                    WidthRequest = 600, HeightRequest = 123,  Source = "https://static.wixstatic.com/media/9524a5_5a52761ab5f847cbbce927b3a528895e.png/v1/fill/w_600,h_123,al_c,usm_0.66_1.00_0.01/9524a5_5a52761ab5f847cbbce927b3a528895e.png",
+                                    Source = ImageSource.FromFile("asthma.png"),
                                 },
                             }
                         },
