@@ -34,6 +34,9 @@
     <MtouchLink>None</MtouchLink>
     <MtouchArch>i386</MtouchArch>
     <ConsolePause>false</ConsolePause>
+    <MtouchDebug>False</MtouchDebug>
+    <CodesignKey>iPhone Distribution: Eric MacEachern (ZYCAHW5WQ7)</CodesignKey>
+    <CodesignProvision>477d5b42-8f8b-415f-9486-d66a6e0d7b37</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
@@ -74,7 +77,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchNoSymbolStrip>False</MtouchNoSymbolStrip>
     <CodesignKey>iPhone Distribution: Eric MacEachern (ZYCAHW5WQ7)</CodesignKey>
-    <CodesignProvision>0570f79a-6c4c-456a-8340-53f181ee4889</CodesignProvision>
+    <CodesignProvision>477d5b42-8f8b-415f-9486-d66a6e0d7b37</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
     <DebugType>none</DebugType>
