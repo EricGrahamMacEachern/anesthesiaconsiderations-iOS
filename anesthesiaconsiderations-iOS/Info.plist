@@ -7,9 +7,9 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.anesthesiaconsiderations.anesthesiaconsiderations</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.98</string>
+	<string>0.99</string>
 	<key>CFBundleVersion</key>
-	<string>0.98</string>
+	<string>0.99</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
@@ -47,5 +47,7 @@
 	<string>Allows the app to control HomeKit enabled devices.</string>
 	<key>NSMainNibFile</key>
 	<string>LaunchScreen</string>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleBlackOpaque</string>
 </dict>
 </plist>

@@ -13,12 +13,6 @@ namespace FormsGallery
         public Sepsis()
         {
 
-            Button emailButton = new Button { Text = "Website Contact" };
-            emailButton.Clicked += (sender, e) =>
-            {
-                Device.OpenUri(new Uri("http://www.anesthesiaconsiderations.com/"));
-            };
-
             Command <Type> navigateCommand =
                 new Command<Type>(async (Type pageType) =>
                 {
