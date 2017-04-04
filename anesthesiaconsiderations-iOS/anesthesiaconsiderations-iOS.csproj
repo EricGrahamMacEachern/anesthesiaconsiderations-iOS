@@ -76,8 +76,8 @@
     <IpaIncludeArtwork>False</IpaIncludeArtwork>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchNoSymbolStrip>False</MtouchNoSymbolStrip>
-    <CodesignKey>iPhone Distribution: Eric MacEachern (ZYCAHW5WQ7)</CodesignKey>
-    <CodesignProvision>477d5b42-8f8b-415f-9486-d66a6e0d7b37</CodesignProvision>
+    <CodesignKey>iPhone Developer: Eric MacEachern (6G99N77U76)</CodesignKey>
+    <CodesignProvision>9cec944a-f677-4c89-b1c9-d0a90a026847</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
     <DebugType>none</DebugType>
