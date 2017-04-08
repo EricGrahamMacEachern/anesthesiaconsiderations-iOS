@@ -7,9 +7,9 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.anesthesiaconsiderations.anesthesiaconsiderations</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.99</string>
+	<string>0.992</string>
 	<key>CFBundleVersion</key>
-	<string>0.99</string>
+	<string>0.992</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
