@@ -22,11 +22,11 @@ namespace FormsGallery
     };
 
     class DetailPage : ContentPage
-    {                
+    {
         public DetailPage(pageList page_list)
         {
             this.page_list = page_list;
-        }       
+        }
 
         public pageList page_list { private set; get; }
 
@@ -475,8 +475,8 @@ new pageList("Wolff-Parkinson-White Syndrome", typeof(WolffParkinsonWhiteSyndrom
                 Placeholder = "Enter search term",
                 TextColor = Color.Black,
             };
-    
-        StackLayout stackLayout = new StackLayout
+
+            StackLayout stackLayout = new StackLayout
             {
                 VerticalOptions = LayoutOptions.Start,
                 Children = {
@@ -492,8 +492,8 @@ new pageList("Wolff-Parkinson-White Syndrome", typeof(WolffParkinsonWhiteSyndrom
 
 
 
-        // Create the ListView.
-        ListView listView = new ListView
+            // Create the ListView.
+            ListView listView = new ListView
             {
 
 
@@ -515,7 +515,7 @@ new pageList("Wolff-Parkinson-White Syndrome", typeof(WolffParkinsonWhiteSyndrom
 
 
 
-            return new ViewCell
+                    return new ViewCell
                     {
 
                         View = new StackLayout
@@ -558,21 +558,21 @@ new pageList("Wolff-Parkinson-White Syndrome", typeof(WolffParkinsonWhiteSyndrom
 
             searchBar.TextChanged += (sender, e) => Filter(listView, e.NewTextValue);
             searchBar.SearchButtonPressed += (sender, args) => Filter(listView, searchBar.Text);
-            
+
             listView.ItemTapped += async (sender, args) =>
              {
 
                  var itemSelected = args.Item as pageList;
                  if (itemSelected != null)
                  {
-                         var page = (ContentPage)System.Activator.CreateInstance(itemSelected.fileName);
-                         await Navigation.PushAsync(page, true);
-                     
+                     var page = (ContentPage)System.Activator.CreateInstance(itemSelected.fileName);
+                     await Navigation.PushAsync(page, true);
+
                  }
-                                  
+
              };
-             
-             
+
+
 
 
         }

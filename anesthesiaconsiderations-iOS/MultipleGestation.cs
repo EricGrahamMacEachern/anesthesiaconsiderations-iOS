@@ -3,7 +3,7 @@ using Xamarin.Forms;
 
 namespace FormsGallery
 {
-    class MultipleGestation  : ContentPage
+    class MultipleGestation : ContentPage
     {
         public MultipleGestation()
         {

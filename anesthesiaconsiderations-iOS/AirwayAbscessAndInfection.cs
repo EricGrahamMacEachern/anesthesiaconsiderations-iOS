@@ -357,7 +357,7 @@ namespace FormsGallery
                                 },
                             }
                         },
-                        
+
                         new StackLayout
                         {
                             Padding = 0,

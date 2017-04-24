@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-Copyright (c) 2016 Eric MacEachern and Pooya Kazemi, MD
-=======
-Copyright (c) 2016 Eric MacEachern and Pooya Kazemi, MD
->>>>>>> origin/master

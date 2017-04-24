@@ -29,7 +29,7 @@ namespace FormsGallery
                                 Command = navigateCommand,
                                 CommandParameter = typeof(Cirrhosis)
                             },
-                            
+
                         }
                     }
             };

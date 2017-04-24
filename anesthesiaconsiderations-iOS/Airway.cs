@@ -71,7 +71,7 @@ namespace FormsGallery
                                 Command = navigateCommand,
                                 CommandParameter = typeof(Tracheostomy)
                             },
-                                                        
+
                         }
                     }
             };

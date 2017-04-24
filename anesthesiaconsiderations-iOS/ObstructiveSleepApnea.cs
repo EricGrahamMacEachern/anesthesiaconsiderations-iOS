@@ -460,7 +460,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout  
+                        new StackLayout
                         {
                             Padding = 0,
                             Orientation = StackOrientation.Horizontal,

@@ -3,7 +3,7 @@ using Xamarin.Forms;
 
 namespace FormsGallery
 {
-    class PenetratingNeckInjuries  : ContentPage
+    class PenetratingNeckInjuries : ContentPage
     {
         public PenetratingNeckInjuries()
         {

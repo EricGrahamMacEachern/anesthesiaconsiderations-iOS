@@ -10,8 +10,8 @@ namespace FormsGallery
             Label header = new Label
             {
                 Text = "About",
-				FontSize = 50,
-				FontAttributes = FontAttributes.Bold,
+                FontSize = 50,
+                FontAttributes = FontAttributes.Bold,
                 HorizontalOptions = LayoutOptions.Center
             };
 
@@ -36,14 +36,14 @@ namespace FormsGallery
 
                     "update our website. Please read the 'Legal' section for our terms of use.",
 
-				FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
                 VerticalOptions = LayoutOptions.CenterAndExpand
             };
 
             // Build the page.
             this.Content = new StackLayout
             {
-                Children = 
+                Children =
                 {
                     header,
                     label

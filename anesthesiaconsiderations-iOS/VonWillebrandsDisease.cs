@@ -859,7 +859,7 @@ namespace FormsGallery
                                     Text = " ",
                                     FontSize = 5,
                                 },
-                                
+
                                 new Image
                                 {
                                     Source = ImageSource.FromFile("recommendeddosages.png")

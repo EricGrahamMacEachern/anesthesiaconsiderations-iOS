@@ -3,7 +3,7 @@ using Xamarin.Forms;
 
 namespace FormsGallery
 {
-    class DisseminatedIntravascularCoagulationDIC  : ContentPage
+    class DisseminatedIntravascularCoagulationDIC : ContentPage
     {
         public DisseminatedIntravascularCoagulationDIC()
         {

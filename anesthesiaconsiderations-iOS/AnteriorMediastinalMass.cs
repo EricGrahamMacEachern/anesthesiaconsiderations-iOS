@@ -3,7 +3,7 @@ using Xamarin.Forms;
 
 namespace FormsGallery
 {
-    class AnteriorMediastinalMass  : ContentPage
+    class AnteriorMediastinalMass : ContentPage
     {
         public AnteriorMediastinalMass()
         {

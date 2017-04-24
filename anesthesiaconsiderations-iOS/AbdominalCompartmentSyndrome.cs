@@ -10,7 +10,7 @@ namespace FormsGallery
             Command<Type> navigateCommand =
                 new Command<Type>(async (Type pageType) =>
                 {
-                    Page page = (Page) Activator.CreateInstance(pageType);
+                    Page page = (Page)Activator.CreateInstance(pageType);
                     await this.Navigation.PushAsync(page);
                 });
 

@@ -11,5 +11,9 @@ I used mostly pure C# for this app instead of XAML.
 
 I started the app around May, 2016. It will probably be done some time in early 2017. 
 
+2017-04-24
+
+I am open sourcing the software part of the project because I am in need of assistance in fixing bugs. 
+
 by Eric Graham MacEachern
 email: egm@ericgrahammaceachern.com

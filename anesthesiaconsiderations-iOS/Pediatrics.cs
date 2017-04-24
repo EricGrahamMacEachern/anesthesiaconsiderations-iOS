@@ -173,7 +173,7 @@ namespace FormsGallery
                                 Text = "Tonsillectomy",
                                 Command = navigateCommand,
                                 CommandParameter = typeof(TetralogyOfFallout)
-                                
+
                             },
 
                             new TextCell

@@ -80,7 +80,7 @@ namespace FormsGallery
                             },
 
                             new TextCell
-                            { 
+                            {
                                 Text = "Trauma",
                                 Command = navigateCommand,
                                 CommandParameter = typeof(Trauma)

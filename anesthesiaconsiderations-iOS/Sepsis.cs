@@ -13,7 +13,7 @@ namespace FormsGallery
         public Sepsis()
         {
 
-            Command <Type> navigateCommand =
+            Command<Type> navigateCommand =
                 new Command<Type>(async (Type pageType) =>
                 {
                     Page page = (Page)Activator.CreateInstance(pageType);
